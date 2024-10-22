@@ -1,0 +1,23 @@
+.header {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+    li {
+      a {
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

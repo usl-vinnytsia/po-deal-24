@@ -1,0 +1,12 @@
+.team {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d1d1d1;
+
+  h2 {
+    font-size: 2rem;
+  }
+}
