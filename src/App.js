@@ -7,22 +7,20 @@ import About from './components/About/About';
 import Team from './components/Team/Team';
 import { Partners } from './components/Partners/Partners';
 import { Program } from './components/Program/Program';
-import { Sell } from './components/Sell/Sell';
 import { Footer } from './components/Footer/Footer';
 
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <Header />
       <MainScreen />
       <About />
       <Team />
       <Partners />
       <Program />
-      <Sell />
       <Footer />
-    </div>
+    </main>
   );
 }
 
