@@ -1,8 +1,12 @@
-@import "./styles/styles-imports";
+@use "./styles/styles-imports" as *;
+@use "./styles/container" as container;
+@use "./styles/fonts" as fonts;
+@use "./styles/global" as global;
+
+$font-main: "Gilroy", sans-serif;
 
 .App {
   font-family: $font-main;
   text-align: center;
-  margin: 0;
   padding: 0;
 }
