@@ -1,23 +1,65 @@
+@use "../../styles/variables" as *;
+@use "../../styles/container" as container;
+
 .header {
-  background-color: #333;
-  padding: 20px;
-  color: #fff;
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10; 
+  background: none;
+
+  &__container {
+    @extend .container;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    margin-top: 34px;
+    color: $light-color;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 97%; /* 15.52px */
+    text-transform: uppercase;
+  }
+
+  &__logo {
+    width: 194.85px;
+    height: 45.321px;
+  }
 
   ul {
-    list-style: none;
+    list-style-type: none;
+  }
+  
+  ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: $light-color;
+    cursor: pointer;
+  }
+
+  &__register {
     display: flex;
-    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: $light-color;
 
-    li {
-      a {
-        color: #fff;
-        text-decoration: none;
-        cursor: pointer;
+    span {
+      font-family: "Gilroy-Regular";
+      padding: 10px 18px;
+      background-color: $red-color;
+    }
 
-        &:hover {
-          text-decoration: underline;
-        }
-      }
+    img {
+      width: 36px;
+      height: 36px;
     }
   }
 }
