@@ -3,10 +3,8 @@
 @use "./styles/fonts" as fonts;
 @use "./styles/global" as global;
 
-$font-main: "Gilroy", sans-serif;
-
 .App {
-  font-family: $font-main;
+  font-family: "Gilroy-Light";
   text-align: center;
   padding: 0;
 }

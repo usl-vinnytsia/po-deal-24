@@ -2,8 +2,7 @@
 @use "../../styles/container" as container;
 
 .main-screen {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
   background-color: $dark-color;
   background-image: url('../../images/layerGraine.png');
   background-size: cover;
@@ -14,8 +13,143 @@
 
   padding-top: calc(100px);
   color: $light-color;
+
+  // Circle Shape
+  &::before {
+    content: '';
+    position: absolute;
+    top: -300px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1400px; 
+    height: 1400px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    z-index: 0;
+  }
+
+  // Rectangle Shape
+  &::after {
+    content: '';
+    position: absolute;
+    top: -220px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1070px; 
+    height: 1070px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    z-index: 0;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__reactangle, &__circle {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    z-index: -1000;
+    border: 1px solid rgba($color: #fff, $alpha: 0.3);
+    overflow: hidden;
+  }
+
+  &__reactangle {
+    top: -175px;
+    width: 1019px;
+    height: 1019px;
+  }
+
+  &__circle {
+    top: -380px;
+    width: 1440px;
+    height: 1440px;
+    border-radius: 50%;
+  }
+
+  &__title {
+    margin-top: 159px;
+  }
+
+  &__info {
+    margin: 255px 0 78px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-family: "Gilroy-Light";
+  }
 }
 
 .container {
   @extend .container;
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: "Gilroy-Light";
+  font-size: 80px;
+  width: max-content;
+
+  &__second-line {
+    display: flex;
+    align-items: center;
+    margin-top: 29px;
+  }
+
+  &__bracket {
+    font-family: "Gilroy-Thin";
+    font-size: 120px;
+    opacity: 30%;
+
+    &--left {
+      margin: 0 12px 0 2px;
+    }
+
+    &--right {
+      margin: 0 12px;
+    }
+  }
+
+  &__image {
+    position: relative;
+    height: 108px;
+    display: flex;
+    flex-direction: column;
+
+    &::before {
+      content: '02.11';
+      position: absolute;
+      font-size: 16px;
+      text-transform: initial;
+      left: 0;
+      bottom: -25px;
+    }
+
+    &::after {
+      content: 'Вінниця';
+      position: absolute;
+      font-size: 16px;
+      text-transform: initial;
+      right: 0;
+      bottom: -25px;
+    }
+
+    & img {
+      height: 108px;
+    }
+
+    &--details {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 9px;
+      text-transform: initial;
+      font-size: 16px;
+      line-height: 15.52px
+    }
+  }
 }
