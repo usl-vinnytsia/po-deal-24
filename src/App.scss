@@ -4,8 +4,6 @@
 @use "./styles/global" as global;
 @use "./styles/variables" as *;
 
-$font-main: "Gilroy", sans-serif;
-
 .App {
   font-family: $font-main;
   background-color: $dark-color;
