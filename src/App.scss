@@ -2,9 +2,11 @@
 @use "./styles/container" as container;
 @use "./styles/fonts" as fonts;
 @use "./styles/global" as global;
+@use "./styles/variables" as *;
 
 .App {
-  font-family: "Gilroy-Light";
+  font-family: $font-main;
+  background-color: $dark-color;
   text-align: center;
   padding: 0;
 }
