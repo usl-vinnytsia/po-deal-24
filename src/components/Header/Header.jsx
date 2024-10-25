@@ -12,13 +12,13 @@ const Header = () => {
         <nav>
           <ul>
             <li>
-              <Link to="main-screen" smooth={true} duration={500}>про нас</Link>
+              <Link to="team" smooth={true} duration={500}>про нас</Link>
             </li>
             <li>
-              <Link to="about" smooth={true} duration={500}>партнери</Link>
+              <Link to="partners" smooth={true} duration={500}>партнери</Link>
             </li>
             <li>
-              <Link to="team" smooth={true} duration={500}>програма</Link>
+              <Link to="program" smooth={true} duration={500}>програма</Link>
             </li>
           </ul>
         </nav>

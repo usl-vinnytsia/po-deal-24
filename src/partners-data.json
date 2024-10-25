@@ -1,0 +1,44 @@
+{
+  "partners": [
+    {
+      "id": 1,
+      "image": "/partner1.png",
+      "type": "",
+      "location": "Вінниця",
+      "service": "усл вп",
+      "description": "Beneath the silver-hued sky, the crimson sea stretched endlessly, reflecting the gentle glow of distant stars. A lone ship drifted quietly, its sails catching the gentle breeze."
+    },
+    {
+      "id": 2,
+      "image": "/partner1.png",
+      "type": "Premium",
+      "location": "Київ",
+      "service": "усл вп",
+      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
+    },
+    {
+      "id": 3,
+      "image": "/partner1.png",
+      "type": "General",
+      "location": "Львів",
+      "service": "усл вп",
+      "description": "Amidst the rolling hills and verdant forests, a sanctuary of peace emerges. The natural surroundings provide the perfect backdrop for contemplation and renewal."
+    },
+    {
+      "id": 4,
+      "image": "/partner1.png",
+      "type": "",
+      "location": "Одеса",
+      "service": "усл вп",
+      "description": "Where technology meets craftsmanship, excellence is born. Our dedicated team brings together years of experience and cutting-edge innovation to deliver outstanding results."
+    },
+    {
+      "id": 5,
+      "image": "/partner1.png",
+      "type": "",
+      "location": "Харків",
+      "service": "усл вп",
+      "description": "Through dedication and expertise, we transform challenges into opportunities. Our commitment to quality and innovation drives every project we undertake."
+    }
+  ]
+}

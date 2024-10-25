@@ -1,10 +1,15 @@
+import { PartnersSlider } from '../PatrnersSlider/PartnersSlider';
 import './Partners.scss';
 
 export const Partners = () => {
   return (
     <section id="partners" className="partners">
-      <h2>Partners</h2>
-      <p>Here is Partners screen.</p>
-    </section>
+      <div className="partners__content container">
+        <h1 className="partners__title">наші партнери</h1>
+        <div className="partners__slider">
+          <PartnersSlider />
+        </div>
+      </div>
+    </section >
   );
 };

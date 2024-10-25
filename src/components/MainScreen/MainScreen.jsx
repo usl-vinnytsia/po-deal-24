@@ -4,8 +4,6 @@ import photo from '../../images/main-screen.jpg';
 const MainScreen = () => {
   return (
     <section id="main-screen" className="main-screen">
-      {/* <div className="main-screen__reactangle"></div>
-      <div className="main-screen__circle"></div> */}
 
       <div className="main-screen__content container">
         <div className="main-screen__title title">
