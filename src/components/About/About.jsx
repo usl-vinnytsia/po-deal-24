@@ -59,21 +59,21 @@ const About = () => {
             <CountUp
               className='about-content-left-details-num'
               start={0}
-              end={187}
+              end={16}
               duration={2}
             />
           )}
-          <span className='about-content-left-details-txt'>годин підготовки</span>
+          <span className='about-content-left-details-txt'>залучених компаній</span>
         </div>
         <hr />
       </div>
       <div className="about-content-right">
         <span className='about-content-right-title'>що таке поділ</span>
         <p>
-          Time felt suspended, as if the world itself held its breath, waiting for something to
+          наймасштабніший ярмарок кар’єрних можливостей у вінниці 
         </p>
         <p className='about-content-right-p'>
-          The ship's wooden creaks were the only sound breaking the silence, as if the very sea had fallen asleep beneath the heavy weight
+          ідея в тому, щоб створити платформу для взаємодії між студентами та роботодавцями, розвинути локальний ринок праці та підтримати кар’єрне зростання молоді у вінниці
         </p>
       </div>
     </section>

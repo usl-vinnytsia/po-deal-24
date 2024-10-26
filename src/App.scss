@@ -5,8 +5,8 @@
 @use "./styles/variables" as *;
 
 .App {
+  font-family: $font-main;
   background-color: $dark-color;
-  font-family: "Gilroy-Light",  $font-main;
   text-align: center;
   padding: 0;
 }
