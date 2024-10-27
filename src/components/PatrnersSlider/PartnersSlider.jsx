@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import partnersData from '../../partners-data.json';
+import arrow from '../../images/link-arrow.svg';
 import './PartnersSlider.scss';
 
 const CARD_WIDTH = 380;
@@ -64,17 +65,19 @@ export const PartnersSlider = () => {
           key={`${partner.id}-${index}`} 
           className="scrollbar__card card"
         >
-          <img className="card__image" alt='partner' src={partner.image} />
           {partner.type ? (
-            <div className="card__flag">{index} General</div>
+            <div className="card__flag">General</div>
           ) : ''}
-          <div className="card__info">
-            <p className="card__info--left">{partner.service}</p>
-            <p className="card__info--right">{partner.location}</p>
-          </div>
+          <div className="card__title">{partner.title}</div>
           <p className="card__description">
             {partner.description}
           </p>
+          <div className="card__bottom">
+            <a href="/" className="card__link">
+              <img src={arrow} alt='link arrow'/>
+            </a>
+            <img src={partner.image} alt="partner logo" className="card__logo" />
+          </div>
         </div>
       ))}
     </div>

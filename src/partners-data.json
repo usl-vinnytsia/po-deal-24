@@ -2,43 +2,108 @@
   "partners": [
     {
       "id": 1,
-      "image": "/partner1.png",
-      "type": "",
-      "location": "Вінниця",
-      "service": "усл вп",
+      "title": "Ria",
+      "image": "partner_logos/ria.png",
+      "type": "General",
       "description": "Beneath the silver-hued sky, the crimson sea stretched endlessly, reflecting the gentle glow of distant stars. A lone ship drifted quietly, its sails catching the gentle breeze."
     },
     {
       "id": 2,
-      "image": "/partner1.png",
-      "type": "Premium",
-      "location": "Київ",
-      "service": "усл вп",
+      "title": "Промавтоматика",
+      "image": "partner_logos/prom.png",
+      "type": "General",
       "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
     },
     {
       "id": 3,
-      "image": "/partner1.png",
+      "title": "kness group",
+      "image": "partner_logos/kness.png",
       "type": "General",
-      "location": "Львів",
-      "service": "усл вп",
-      "description": "Amidst the rolling hills and verdant forests, a sanctuary of peace emerges. The natural surroundings provide the perfect backdrop for contemplation and renewal."
+      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
     },
     {
       "id": 4,
-      "image": "/partner1.png",
-      "type": "",
-      "location": "Одеса",
-      "service": "усл вп",
-      "description": "Where technology meets craftsmanship, excellence is born. Our dedicated team brings together years of experience and cutting-edge innovation to deliver outstanding results."
+      "title": "roshen",
+      "image": "partner_logos/roshen.png",
+      "type": "General",
+      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
     },
     {
       "id": 5,
-      "image": "/partner1.png",
+      "title": "nemiroff",
+      "image": "partner_logos/nemiroff.svg",
+      "type": "General",
+      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
+    },
+    {
+      "id": 6,
+      "title": "epam",
+      "image": "partner_logos/epam.png",
+      "type": "General",
+      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
+    },
+    {
+      "id": 7,
+      "title": "фора",
+      "image": "partner_logos/fora.svg",
+      "type": "General",
+      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
+    },
+    {
+      "id": 8,
+      "title": "bhb group",
+      "image": "partner_logos/bhb.png",
+      "type": "General",
+      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
+    },
+    {
+      "id": 9,
+      "title": "ПриватБанк",
+      "image": "partner_logos/PrivatBank.png",
       "type": "",
-      "location": "Харків",
-      "service": "усл вп",
-      "description": "Through dedication and expertise, we transform challenges into opportunities. Our commitment to quality and innovation drives every project we undertake."
+      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
+    },
+    {
+      "id": 10,
+      "title": "Tiras",
+      "image": "partner_logos/tiras.svg",
+      "type": "",
+      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
+    },
+    {
+      "id": 11,
+      "title": "Епіцентр",
+      "image": "partner_logos/epicentrk.png",
+      "type": "",
+      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
+    },
+    {
+      "id": 12,
+      "title": "Подорожник",
+      "image": "partner_logos/podor.png",
+      "type": "",
+      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
+    },
+    {
+      "id": 13,
+      "title": "Укрзалізниця",
+      "image": "partner_logos/ukrzaliznytsya.png",
+      "type": "",
+      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
+    },
+    {
+      "id": 14,
+      "title": "аврора",
+      "image": "partner_logos/avrora.svg",
+      "type": "",
+      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
+    },
+    {
+      "id": 15,
+      "title": "Вінницька транспортна компанія",
+      "image": "partner_logos/vtk.png",
+      "type": "",
+      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
     }
   ]
 }
