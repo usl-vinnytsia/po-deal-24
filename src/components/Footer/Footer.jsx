@@ -8,7 +8,7 @@ export const Footer = () => {
         <span className='footer-mainTxt'>ми переконали</span>
         <div className='footer-sub-mainTxt'>
           <span className='footer-mainTxt'>тебе?</span>
-          <a href="https://t.me/PoDeal_bot" className="header__register">
+          <a href="https://t.me/PoDeal_bot" className="footer__register">
             <span>реєстрація</span>
             <img src={arrow} alt="arrow"></img>
           </a>
