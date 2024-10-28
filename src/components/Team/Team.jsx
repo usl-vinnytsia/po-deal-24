@@ -8,7 +8,7 @@ const Team = () => {
     <section id="team" className="team">
       <div className=' team__container'>
         <aside className='team-left'>
-          <img src={teamLeft} alt="" srcset="" />
+          <img src={teamLeft} alt="" srcset="" className='team-left-img'/>
           <div className='team-left-photo-descr'>
             <span>УСЛ ВП</span>
             <span>Вінниця</span>

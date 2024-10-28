@@ -1,4 +1,5 @@
 import './Program.scss';
+import program from '../../program-data.json';
 
 export const Program = () => {
   return (
@@ -18,28 +19,17 @@ export const Program = () => {
       </main>
       <div className='program__container'>
         <table>
-          <tr>
-            <td>[9.00-10.00]</td>
-            <td>як відмовляти людям</td>
-            <td>Михайло Ганчук</td>
+          {program.program.map((event, index) => (
+          <tr key={index}>
+            <td>{event.time}</td>
+            <td className='program__info'>
+              <p className='program__info--type'>{event.format} {event.type}</p>
+              <p>{event.title}</p>
+            </td>
+            <td>{event.person}</td>
           </tr>
-          <tr>
-            <td>[9.00-10.00]</td>
-            <td>чи може Росія розпочати війну проти України</td>
-            <td>Володимир Зеленський, Гройсан, Стів Джобс, Святослав Вакарчук</td>
-          </tr>
-          <tr>
-            <td>[all day]</td>
-            <td>консультативний HR центр</td>
-            <td>Володимир Зеленський, Гройсан, Стів Джобс, Святослав Вакарчук</td>
-          </tr>
-          <tr>
-            <td>[9.00-10.00]</td>
-            <td>як відмовляти людям</td>
-            <td>Михайло Ганчук</td>
-          </tr>
+          ))}
         </table>
-
       </div>
 
     </section>
