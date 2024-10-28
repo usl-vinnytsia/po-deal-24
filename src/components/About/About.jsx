@@ -1,31 +1,51 @@
 import './About.scss';
 import CountUp from 'react-countup';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 const About = () => {
   const [startCount, setStartCount] = useState(false);
-  useEffect(() => {
-    setStartCount(true);
-  }, []);
   const [hoursLeft, setHoursLeft] = useState(0);
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setStartCount(true);
+        }
+      },
+      { threshold: 0.5 } 
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
+
   useEffect(() => {
     const targetDate = new Date('2024-11-02T10:00:00');
+
     const calculateTimeLeft = () => {
       const now = new Date();
       const difference = targetDate - now;
-      const hours = Math.floor(difference / (1000 * 60 * 60));
+      const hours = Math.max(0, Math.floor(difference / (1000 * 60 * 60))); 
       setHoursLeft(hours);
-      if (difference < 0) {
-        setHoursLeft(0);
-      }
     };
-    calculateTimeLeft();
-    const interval = setInterval(calculateTimeLeft, 1000);
-    return () => clearInterval(interval);
+
+    calculateTimeLeft(); 
+    const interval = setInterval(calculateTimeLeft, 1000); 
+
+    return () => clearInterval(interval); 
   }, []);
 
   return (
-    <section id="about" className="about">
+    <section id="about" className="about" ref={sectionRef}>
       <div className="about-content-left">
         <hr />
         <div className="about-content-left-details">
@@ -34,7 +54,7 @@ const About = () => {
               className='about-content-left-details-num'
               start={0}
               end={688}
-              duration={2}
+              duration={4}
             />
           )}
           <span className='about-content-left-details-txt'>учасників</span>
@@ -47,7 +67,7 @@ const About = () => {
                 className='about-content-left-details-num'
                 start={0}
                 end={hoursLeft}
-                duration={2}
+                duration={3}
               />
             )}
           </span>
