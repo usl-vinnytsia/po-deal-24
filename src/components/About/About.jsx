@@ -45,7 +45,7 @@ const About = () => {
   }, []);
 
   return (
-    <section id="about" className="about" ref={sectionRef}>
+    <section id="about" className="about container" ref={sectionRef}>
       <div className="about-content-left">
         <hr />
         <div className="about-content-left-details">

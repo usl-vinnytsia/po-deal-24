@@ -2,25 +2,23 @@
 @use "../../styles/container" as container;
 
 .about {
-  margin-top: 100px;
-  height: 110vh; /* Full viewport height */
+  margin-top: 150px !important;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  // background-color: #e0e0e0;
   color: $light-color;
   gap: 98px;
+
   h2 {
     font-size: 2rem;
   }
-  margin: 80px;
 }
+
 .about-content-left,
 .about-content-right {
   width: 45%;
   height: 90%;
-  // border: white 1px solid;
 }
 .about-content-left {
   display: flex;
@@ -81,4 +79,6 @@ hr {
   opacity: 60%;
 }
 
-
+.container {
+  @extend .container;
+}
