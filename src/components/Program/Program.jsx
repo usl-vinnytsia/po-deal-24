@@ -17,7 +17,7 @@ export const Program = () => {
   );
 
   return (
-    <section id="program" className="program">
+    <section id="program" className="program container">
       <main className='program-main'>
         <div className='program-main-about'>
           <span>[ярмарок карʼєри]</span>
