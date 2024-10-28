@@ -9,7 +9,7 @@
     },
     {
       "id": 2,
-      "title": "Промавтоматика",
+      "title": "Промавтоматика вінниця",
       "image": "partner_logos/prom.png",
       "type": "General",
       "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
@@ -67,13 +67,6 @@
       "id": 10,
       "title": "Tiras",
       "image": "partner_logos/tiras.svg",
-      "type": "",
-      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
-    },
-    {
-      "id": 11,
-      "title": "Епіцентр",
-      "image": "partner_logos/epicentrk.png",
       "type": "",
       "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
     },
