@@ -1,0 +1,61 @@
+@use "../../styles/container" as container;
+@use "../../styles/variables" as *;
+
+.partners {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 150px;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1400px; 
+    height: 1400px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    z-index: 0;
+  }
+
+  // Rectangle Shape
+  &::after {
+    content: '';
+    position: absolute;
+    top: 450px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1070px; 
+    height: 900px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    z-index: 0;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+    width: 100%;
+  }
+
+  &__title {
+    color: $light-color;
+    font-family: $font-light;
+    text-transform: uppercase;
+    font-size: 168px;
+  }
+
+  &__slider {
+    // margin-top: 70px;
+    // display: flex;
+    // gap: 160px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+}
+
+.container {
+  @extend .container;
+}

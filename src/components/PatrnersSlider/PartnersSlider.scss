@@ -1,0 +1,119 @@
+@use '../../styles/variables' as *;
+
+.scrollbar {
+  display: flex;
+  gap: 160px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-right: 380px;
+  cursor: grab;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+  transition: transform 3s ease-out;
+
+  &.scrolling-active {
+    scroll-behavior: auto; // Disable smooth behavior during drag
+    transition: none; // Disable CSS transitions during drag
+  }
+  
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &:active {
+    cursor: grabbing;
+  }
+
+  &__card {
+    scroll-snap-align: start;
+  }
+
+  .scrolling-active &__card {
+    transform: scale(0.98); // Slight shrink effect
+  }
+}
+
+.card {
+  position: relative;
+  color: $light-color; 
+  font-family: $font-light; 
+  flex: 0 0 auto;
+  user-select: none;
+  transition: transform 0.3s ease;
+  background-color: $light-color;
+  border-top: 1px solid $light-color;
+  color: $dark-color;
+
+  width: 356px;
+  height: max-content;
+
+  padding: 32px 16px;
+
+  &:nth-child(odd) {
+    margin-top: 34px;
+  }
+
+  &:nth-child(even) {
+    margin-top: 150px;
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  &__flag {
+    text-transform: uppercase;
+    color: $light-color;
+    font-size: 24px;
+    display: inline;
+    padding: 2px 30px;
+    position: absolute;
+    background-color: $red-color;
+    top: -32px;
+    left: 0;
+    pointer-events: none;
+  }
+
+  &__title {
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: start;
+  }
+
+  &__description {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 15px;
+    text-align: start;
+    pointer-events: none;
+  }
+
+  &__link {
+    background-color: $dark-color;
+    width: 57px;
+    height: 57px;
+    display: inline-block;
+    padding: 12px;
+    cursor: pointer;
+
+    & img {
+      width: 32px;
+      height: 32px;
+      margin: 0 auto;
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 125px;
+  }
+
+  &__logo {
+    width: 179px;
+    // height: 127px; 
+  }
+}
