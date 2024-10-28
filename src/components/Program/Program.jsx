@@ -28,7 +28,7 @@ export const Program = () => {
 
         <div className='program-main-bottom-txt'>
           <p>
-          Приходь на PoDeal '24 та переймай досвід та отримуй знання!          
+          Приходь на ПоDeal '24 та переймай досвід та отримуй знання!          
           </p>
           <span>©2024-2025</span>
         </div>
