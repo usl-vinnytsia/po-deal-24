@@ -42,11 +42,12 @@
 }
 
 .about-row-divider {
-  margin-left: -100px;
-  width: 117%;
+  width: 50vw;
   opacity: 10%;
-  margin-top: 37px;
-  margin-bottom: 37px;
+  margin: 37px 0;
+  position: relative;
+  left: calc(-50vw + 100%);
+
 }
 
 .about-content-left-details {
@@ -120,7 +121,9 @@
   }
 
   .about-row-divider {
+    width: 100%;
     margin-left: 0;
+    left: 0;
   }
 
   .about-content-left-details {
