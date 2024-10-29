@@ -96,7 +96,7 @@
   line-height: 20px;
 }
 
-@media (min-width: 376px) and (max-width: 768px) {
+@include onMobile {
   .team__container {
     display: flex;
     flex-direction: column-reverse;
