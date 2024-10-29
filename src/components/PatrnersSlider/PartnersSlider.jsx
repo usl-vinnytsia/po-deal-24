@@ -66,14 +66,14 @@ export const PartnersSlider = () => {
           className="scrollbar__card card"
         >
           {partner.type ? (
-            <div className="card__flag">General</div>
+            <div className="card__flag">Генеральний</div>
           ) : ''}
           <div className="card__title">{partner.title}</div>
           <p className="card__description">
             {partner.description}
           </p>
           <div className="card__bottom">
-            <a href="/" className="card__link">
+            <a href={partner.link} target='blank' className="card__link">
               <img src={arrow} alt='link arrow'/>
             </a>
             <img src={partner.image} alt="partner logo" className="card__logo" />
