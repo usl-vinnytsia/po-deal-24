@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/po-deal-24/static/css/main.6c0e356a.css",
-    "main.js": "/po-deal-24/static/js/main.a0fffd0a.js",
+    "main.css": "/po-deal-24/static/css/main.8476100b.css",
+    "main.js": "/po-deal-24/static/js/main.00149d17.js",
+    "static/media/teamRight.webp": "/po-deal-24/static/media/teamRight.9e45d56772c25c634ec2.webp",
     "static/media/layerGraine.webp": "/po-deal-24/static/media/layerGraine.2dcf9fad87fa0d274258.webp",
     "static/media/Gilroy-Thin.ttf": "/po-deal-24/static/media/Gilroy-Thin.fc813b757bc09eb509dc.ttf",
     "static/media/Gilroy-Medium.ttf": "/po-deal-24/static/media/Gilroy-Medium.1c23f810e531d0702f76.ttf",
@@ -17,7 +18,6 @@
     "static/media/Gilroy-Regular.woff": "/po-deal-24/static/media/Gilroy-Regular.5a3f7bf1a36d8d171f55.woff",
     "static/media/Gilroy-Light.woff2": "/po-deal-24/static/media/Gilroy-Light.87cbc692715c691daa2f.woff2",
     "static/media/Gilroy-Regular.woff2": "/po-deal-24/static/media/Gilroy-Regular.c61e4fb91b34b947703c.woff2",
-    "static/media/teamRight.webp": "/po-deal-24/static/media/teamRight.02cac24d377afe97ca83.webp",
     "static/media/programBGmob.webp": "/po-deal-24/static/media/programBGmob.6f6cbce9c705c98d39fb.webp",
     "static/media/DealLogo.svg": "/po-deal-24/static/media/DealLogo.1d106493cedf26618f6372e436bf5b00.svg",
     "static/media/teamLeft.webp": "/po-deal-24/static/media/teamLeft.8e6ad8c2f831b4115612.webp",
@@ -26,11 +26,11 @@
     "static/media/close.svg": "/po-deal-24/static/media/close.981a0d258a11ce3e1eb8f68352899906.svg",
     "static/media/link-arrow.svg": "/po-deal-24/static/media/link-arrow.b7e2ea52d84d2b5d410d2afe1954e326.svg",
     "static/media/burger.svg": "/po-deal-24/static/media/burger.7b5c477476e4801d944fd0735680c66e.svg",
-    "main.6c0e356a.css.map": "/po-deal-24/static/css/main.6c0e356a.css.map",
-    "main.a0fffd0a.js.map": "/po-deal-24/static/js/main.a0fffd0a.js.map"
+    "main.8476100b.css.map": "/po-deal-24/static/css/main.8476100b.css.map",
+    "main.00149d17.js.map": "/po-deal-24/static/js/main.00149d17.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c0e356a.css",
-    "static/js/main.a0fffd0a.js"
+    "static/css/main.8476100b.css",
+    "static/js/main.00149d17.js"
   ]
 }
