@@ -47,7 +47,7 @@ const About = () => {
   return (
     <section id="about" className="about container" ref={sectionRef}>
       <div className="about-content-left">
-        <hr />
+        <hr className='about-row-divider' />
         <div className="about-content-left-details">
           {startCount && (
             <CountUp
@@ -59,7 +59,7 @@ const About = () => {
           )}
           <span className='about-content-left-details-txt'>учасників</span>
         </div>
-        <hr />
+        <hr  className='about-row-divider' />
         <div className="about-content-left-details">
           <span className='about-content-left-details-num'>
             {startCount && (
@@ -73,7 +73,7 @@ const About = () => {
           </span>
           <span className='about-content-left-details-txt'>годин до заходу</span>
         </div>
-        <hr />
+        <hr  className='about-row-divider'/>
         <div className="about-content-left-details">
           {startCount && (
             <CountUp
@@ -85,7 +85,7 @@ const About = () => {
           )}
           <span className='about-content-left-details-txt'>залучених компаній</span>
         </div>
-        <hr />
+        <hr className='about-row-divider' />
       </div>
       <div className="about-content-right">
         <span className='about-content-right-title'>що таке поділ</span>

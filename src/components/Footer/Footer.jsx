@@ -18,7 +18,7 @@ export const Footer = () => {
         <menu className='footer-menu'>
           <ul>
             <li>
-              <a href="http://">Соціальні мережі</a>
+              Соціальні мережі
             </li>
             <li>
               <a href="https://www.instagram.com/usl.vn/" target='blank'>
