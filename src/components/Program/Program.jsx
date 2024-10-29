@@ -3,15 +3,10 @@ import program from '../../program-data.json';
 import React, { useState } from 'react';
 
 export const Program = () => {
-  const [activeTab, setActiveTab] = useState('allday'); // Default filter
-
-  // Define the handleTabClick function inside the component
+  const [activeTab, setActiveTab] = useState('allday');
   const handleTabClick = (filter) => {
-    // event.preventDefault(); // Prevent default anchor behavior
-    setActiveTab(filter);    // Update the active tab
+    setActiveTab(filter);    
   };
-
-  // Filter events based on the active tab
   const filteredEvents = program.program.filter(
     (event) => event.filter === activeTab
   );
@@ -20,17 +15,20 @@ export const Program = () => {
     <section id="program" className="program container">
       <main className='program-main'>
         <div className='program-main-about'>
-          <span>[ярмарок карʼєри]</span>
-          <span>алея бізнесів / 16 локацій</span>
-          <span>16 спікерів</span>
+          <div className='program-main-about-info'>
+            <span>[ярмарок карʼєри]</span>
+            <span>алея бізнесів / 16 локацій</span>
+            <span>16 спікерів</span>
+          </div>
           <span className='program-main-title'>програма подолу</span>
         </div>
 
         <div className='program-main-bottom-txt'>
           <p>
-          Приходь на ПоDeal '24 та переймай досвід та отримуй знання!          
+            Програма обіцяє бути цікавою
+            Приходь на ПоDeal '24 - переймай досвід та надихайся!
           </p>
-          <span>©2024-2025</span>
+          <span className='program-main-bottom-txt-year'>©2024-2025</span>
         </div>
       </main>
       <div className='program__container'>
@@ -71,6 +69,45 @@ export const Program = () => {
             </tr>
           ))}
         </table>
+      </div>
+      {/* mobile version */}
+      <div className="program__container_mobile">
+        <div className="tabs">
+          <button
+            onClick={() => handleTabClick('allday')}
+            className={`tab ${activeTab === 'allday' ? 'active' : ''}`}
+          >
+            All Day
+          </button>
+          <button
+            onClick={() => handleTabClick('main')}
+            className={`tab ${activeTab === 'main' ? 'active' : ''}`}
+          >
+            Main Stage
+          </button>
+          <button
+            onClick={() => handleTabClick('second')}
+            className={`tab ${activeTab === 'second' ? 'active' : ''}`}
+          >
+            Local
+          </button>
+        </div>
+
+        <div className="events">
+          {filteredEvents.map((event, index) => (
+            <div key={index} className="event">
+              <p className="event-time">{event.time}</p>
+              <div className="event-info">
+                <p className="event-type">
+                  {event.format} / {event.type}
+                </p>
+                <p className="event-title">{event.title}</p>
+              </div>
+              <p className="event-person">{event.person}</p>
+              <hr className='events-divider' />
+            </div>
+          ))}
+        </div>
       </div>
 
     </section>
