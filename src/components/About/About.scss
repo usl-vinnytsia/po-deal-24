@@ -20,6 +20,7 @@
   width: 45%;
   height: 90%;
 }
+
 .about-content-left {
   display: flex;
   flex-direction: column;
@@ -40,7 +41,7 @@
   }
 }
 
-hr {
+.about-row-divider {
   margin-left: -100px;
   width: 117%;
   opacity: 10%;
@@ -60,6 +61,7 @@ hr {
   text-align: end;
   font-size: 110px;
 }
+
 .about-content-left-details-txt {
   font-size: 16px;
   line-height: 20px;
@@ -81,4 +83,73 @@ hr {
 
 .container {
   @extend .container;
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+  .about {
+    max-width: 768px;
+    margin: 0;
+    padding: 0;
+    height: max-content;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .about-content-left,
+  .about-content-right {
+    width: 100%;
+    height: max-content;
+    padding: 16px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-content-right,
+  .about-content-left {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .about-content-right {
+    padding-right: 16px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .about-row-divider {
+    margin-left: 0;
+  }
+
+  .about-content-left-details {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .about-content-left-details-num {
+    font-size: 80px;
+  }
+
+  .about-content-right-title {
+    width: 333px;
+    margin-right: 16px;
+    margin: 0;
+    font-size: 44px;
+    line-height: normal;
+    text-align: right;
+  }
+
+  .about-content-right-p,
+  .about-content-right p {
+    width: 345px;
+    font-size: 22px;
+    margin-right: 16px;
+    margin: 0;
+    padding: 0;
+  }
 }

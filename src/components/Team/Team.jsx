@@ -8,16 +8,17 @@ const Team = () => {
     <section id="team" className="team">
       <div className=' team__container'>
         <aside className='team-left'>
-          <img src={teamLeft} alt="" srcset="" className='team-left-img'/>
+          <img src={teamLeft} alt="" srcset="" className='team-left-img' />
           <div className='team-left-photo-descr'>
             <span>УСЛ ВП</span>
             <span>Вінниця</span>
           </div>
           <p className='team-left-descr'>
-            Beneath the silver-hued sky, the crimson sea stretched endlessly, reflecting the gentle glow of distant stars. A lone ship drifted quietly, its sails catching whispers of wind that carried secrets from forgotten lands.
+            Beneath the silver-hued sky, the crimson sea stretched endlessly, reflecting the gentle glow of distant stars. 
+            A lone ship drifted quietly, its sails catching whispers of wind that carried secrets from forgotten lands.
             <br></br>
             <br></br>
-            On the deck, a single lantern flickered, casting long shadows that danced to the rhythm of the ocean.
+            творимо кращий час разом!
           </p>
         </aside>
         <aside className='team-right'>

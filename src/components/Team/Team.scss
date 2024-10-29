@@ -28,15 +28,11 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: self-start;
-
-  img {
-    @include onMobile {
-      width: 268px;
-      height: 278px;
-    }
-  }
 }
-
+.team-left-img {
+  width: 268px !important;
+  height: 278px !important;
+}
 .team-left-photo-descr {
   width: 270px;
   opacity: 0.6;
@@ -101,12 +97,40 @@
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
-  .team-left-img {
-    width: 343px;
-    height: 288px;
+  .team__container {
+    display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid red;
+    height: max-content;
   }
 
-  .team {
-    color: red;
+  .team-left,
+  .team-right {
+    width: 100%;
+    padding: 16px;
+    height: max-content;
+    margin: 0;
+  }
+
+  .team-right-img {
+    width: 343px !important;
+    height: 288px !important;
+  }
+
+  .team-right-title {
+    font-size: 44px;
+  }
+
+  .team-left-descr {
+    margin-top: 50px;
+  }
+
+  .team-right-img {
+    margin-top: 80px;
+  }
+
+  .team-right-descr {
+    margin-top: 280px;
+    margin-bottom: 90px;
   }
 }
