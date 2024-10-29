@@ -1,5 +1,5 @@
 import './MainScreen.scss';
-import photo from '../../images/main-screen.jpg';
+import photo from '../../images/main-screen.webp';
 import logo from '../../images/DealLogo.svg';
 
 const MainScreen = () => {
