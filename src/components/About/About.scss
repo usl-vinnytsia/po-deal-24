@@ -1,5 +1,6 @@
 @use "../../styles/variables" as *;
 @use "../../styles/container" as container;
+@use "../../styles/mixins" as *;
 
 .about {
   margin-top: 150px !important;
@@ -86,7 +87,7 @@
   @extend .container;
 }
 
-@media (min-width: 376px) and (max-width: 768px) {
+@include onMobile {
   .about {
     max-width: 768px;
     margin: 0;

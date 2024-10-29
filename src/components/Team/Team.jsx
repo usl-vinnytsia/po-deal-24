@@ -1,6 +1,6 @@
 import './Team.scss';
-import teamLeft from '../../images/teamLeft.png';
-import teamRight from '../../images/teamRight.png';
+import teamLeft from '../../images/teamLeft.webp';
+import teamRight from '../../images/teamRight.webp';
 
 
 const Team = () => {
@@ -14,8 +14,17 @@ const Team = () => {
             <span>Вінниця</span>
           </div>
           <p className='team-left-descr'>
-            Beneath the silver-hued sky, the crimson sea stretched endlessly, reflecting the gentle glow of distant stars. 
-            A lone ship drifted quietly, its sails catching whispers of wind that carried secrets from forgotten lands.
+          гарні слова, чи справжні імена?
+          Обираємо друге:
+          Аліна Вовковинська,
+          Ілля Несен,
+          Анатолій Хрустовський, 
+          Марія Маєвська,
+          Павло Костишин,
+          Ангеліна Масалаб,
+          Іван Сотник,
+          Влад Копиченський,
+          Вікторія Кравець, Дар'я Дусанюк, Назарій Ковтун та інші
             <br></br>
             <br></br>
             творимо кращий час разом!
@@ -25,7 +34,7 @@ const Team = () => {
           <img src={teamRight} alt="" className='team-right-img' />
           <span className='team-right-title'>знайомимось з командою</span>
 
-          <p className='team-right-descr'>omewhere below, in the heart of the ship, an ancient compass began to spin wildly, as if drawn</p>
+          <p className='team-right-descr'>студентські самоврядування ВНТУ, ВНМУ, ДонНУ та ВДПУ обʼєднанні спільною ідеєю та Українською Студентською Лігою</p>
         </aside>
       </div>
 

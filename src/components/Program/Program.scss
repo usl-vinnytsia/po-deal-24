@@ -20,7 +20,7 @@
   height: max-content;
   margin: 0 auto;
   color: $light-color;
-  background-image: url(../../images/programBG.png);
+  background-image: url(../../images/programBG.webp);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -181,7 +181,7 @@ th:last-child {
 
 @include onMobile {
   .program-main {
-    background-image: url(../../images/programBGmob.png);
+    background-image: url(../../images/programBGmob.webp);
     width: 100%;
     height: max-content;
     background-repeat: no-repeat;
@@ -189,13 +189,13 @@ th:last-child {
     height: 426px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    // align-items: flex-start;
     justify-content: space-around;
   }
 
   .program-main-about {
     width: 100%;
-    height: 426px;
+    height: 50vh;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
@@ -217,6 +217,7 @@ th:last-child {
     font-size: 44px;
     width: 300px;
     text-align: right;
+    margin-top: 10px;
   }
 
   .program-main-bottom-txt {

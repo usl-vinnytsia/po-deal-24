@@ -53,7 +53,7 @@ const About = () => {
             <CountUp
               className='about-content-left-details-num'
               start={0}
-              end={688}
+              end={256}
               duration={4}
             />
           )}

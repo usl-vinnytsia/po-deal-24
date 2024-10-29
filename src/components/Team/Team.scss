@@ -5,7 +5,6 @@
 .team {
   width: 100%;
   margin-top: 150px;
-  // height: 150vh;
   height: max-content;
   z-index: 10;
   background: none;
@@ -33,6 +32,9 @@
   width: 268px !important;
   height: 278px !important;
 }
+.team-right-img {
+  width: 690.759px;
+}
 .team-left-photo-descr {
   width: 270px;
   opacity: 0.6;
@@ -44,7 +46,7 @@
 
 .team-left-descr {
   margin-top: 123px;
-  width: 274px;
+  width: 300px;
   color: $light-color;
   font-family: $font-light;
   font-size: 16px;
@@ -84,7 +86,7 @@
 
 .team-right-descr {
   position: relative;
-  width: 315px;
+  width: 400px;
   margin-top: 580px;
   text-align: right;
   color: $light-color;
@@ -96,7 +98,7 @@
   line-height: 20px;
 }
 
-@media (min-width: 376px) and (max-width: 768px) {
+@include onMobile {
   .team__container {
     display: flex;
     flex-direction: column-reverse;
@@ -112,7 +114,6 @@
 
   .team-right-img {
     width: 343px !important;
-    height: 288px !important;
   }
 
   .team-right-title {
