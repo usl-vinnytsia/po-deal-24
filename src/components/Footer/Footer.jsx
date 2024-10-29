@@ -4,11 +4,11 @@ import { Link } from 'react-scroll';
 
 export const Footer = () => {
   return (
-    <section id="footer" className="footer ">
-      <aside className='container'>
+    <section id="footer" className="footer">
+      <aside className='footer-container'>
         <span className='footer-mainTxt'>ми переконали</span>
         <div className='footer-sub-mainTxt'>
-          <span className='footer-mainTxt'>тебе?</span>
+          <span className='footer-mainTxt' id='footer-submain-tebe'>тебе?</span>
           <a href="https://t.me/PoDeal_bot" className="footer__register" target='blank'>
             <span>реєстрація</span>
             <img src={arrow} alt="arrow"></img>
@@ -31,7 +31,7 @@ export const Footer = () => {
               </a>
             </li>
           </ul>
-          <ul>
+          <ul className='footer-menu--nav'>
             <li>
               <Link to="team" smooth={true} duration={500}>про нас</Link>
             </li>

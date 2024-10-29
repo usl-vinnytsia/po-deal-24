@@ -1,105 +1,150 @@
 @use "../../styles/variables" as *;
 @use "../../styles/container" as container;
+@use "../../styles/mixins" as *;
 
 .footer {
-    // height: 564px;
-    margin-top: 200px;
-    background: $red-color;
+  margin-top: 200px;
+  background: $red-color;
 }
-aside {
-    width: 100vw;
-    // margin-left: 80px;
-    // margin-top: 33px;
-    //   margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.footer-mainTxt {
-    //  margin-top: 33px;
 
-    color: #fff;
-    letter-spacing: 3.82px;
-    text-align: left;
-    font-family: Gilroy;
-    font-size: 160px;
+aside {
+  @extend .container;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-mainTxt {
+  color: #fff;
+  letter-spacing: 3.82px;
+  text-align: left;
+  font-family: Gilroy;
+  font-size: 160px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.footer-sub-mainTxt {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.footer-menu {
+  width: 100%;
+  margin-top: 50px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  ul {
+    list-style-type: none;
+    color: $light-color;
+    font-family: $font-regular;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-transform: uppercase;
-}
-.footer-sub-mainTxt {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: start;
-}
-.footer-menu {
-    width: 98%;
-    margin-top: 50px;
-    padding-bottom: 60px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    ul {
-        list-style-type: none;
-        color: $light-color;
-        font-family: $font-regular;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-decoration: none;
-        li {
-            text-align: left;
-            text-transform: uppercase;
-            cursor: pointer;
-        }
-        li a {
-            text-transform: uppercase;
-            color: $light-color;
-            font-family: $font-regular;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            text-decoration: none;
-        }
-        li:nth-child(1) {
-            margin-bottom: 18px;
-        }
-        li:not(:first-child) {
-            opacity: 0.7;
-            margin-bottom: 9px;
+    text-decoration: none;
 
-            & a {
-              text-transform: capitalize;
-            }
-        }
+    li {
+      text-align: left;
+      text-transform: uppercase;
+      cursor: pointer;
     }
+
+    li a {
+      text-transform: uppercase;
+      color: $light-color;
+      font-family: $font-regular;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-decoration: none;
+    }
+
+    li:nth-child(1) {
+      margin-bottom: 18px;
+    }
+
+    li:not(:first-child) {
+      opacity: 0.7;
+      margin-bottom: 9px;
+
+      & a {
+        text-transform: capitalize;
+      }
+    }
+  }
 }
 
 .footer__register {
-    margin-top: 2%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-    text-decoration: none;
-    color: $dark-color;
+  // margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: $dark-color;
 
-    span {
-        text-transform: uppercase;
-        font-family: $font-regular;
-        font-size: 22px;
-        padding: 10px 18px;
-        background-color: $light-color;
+  span {
+    text-transform: uppercase;
+    font-family: $font-regular;
+    font-size: 22px;
+    padding: 10px 18px;
+    background-color: $light-color;
+  }
+
+  img {
+    width: 47.2px;
+    height: 47.2px;
+  }
+}
+
+@include onMobile {
+  .footer {
+    &-container {
+      align-items: start;
     }
 
-    img {
-        width: 47.2px;
-        height: 47.2px;
+    &-mainTxt,
+    &-sub-mainTxt {
+      font-size: 42px;
     }
+
+    &-mainTxt {
+      margin-top: 50px;
+    }
+
+    &-sub-mainTxt {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &-menu {
+      flex-direction: column;
+      gap: 50px;
+
+      &--nav {
+        display: none;
+      }
+    }
+
+    &__register {
+      & span {
+        padding: 10px 10px;
+      }
+    }
+  }
+
+  #footer-submain-tebe {
+    margin-top: 0;
+  }
 }
