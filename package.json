@@ -2,7 +2,7 @@
   "name": "po-deal-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://2pasha.github.io/po-deal-site",
+  "homepage": "https://usl-vinnytsia.github.io/po-deal-24",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
