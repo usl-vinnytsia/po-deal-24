@@ -45,7 +45,7 @@ const MainScreen = () => {
         </div>
 
         <div className="main-screen__info">
-          <p className='main-screen__info--left'>благодійний карʼєрний ярмарок</p>
+          <p className='main-screen__info--left'>багатоформатний карʼєрний ярмарок</p>
           <p className='main-screen__info--center'>Створений для об’єднання молодих талантів з бізнесом Та надання можливості знайти своє місце в професійному світі, отримуючи цінні ресурси від провідних компаній</p>
           <p className='main-screen__info--right'>для студентів</p>
         </div>

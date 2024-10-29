@@ -18,7 +18,7 @@ export const Program = () => {
           <div className='program-main-about-info'>
             <span>[ярмарок карʼєри]</span>
             <span>алея бізнесів / 14 локацій</span>
-            <span>20 спікерів</span>
+            <span>20+ спікерів</span>
           </div>
           <span className='program-main-title'>програма подолу</span>
         </div>

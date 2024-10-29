@@ -79,7 +79,7 @@ const About = () => {
             <CountUp
               className='about-content-left-details-num'
               start={0}
-              end={16}
+              end={14}
               duration={2}
             />
           )}
@@ -88,7 +88,7 @@ const About = () => {
         <hr className='about-row-divider' />
       </div>
       <div className="about-content-right">
-        <span className='about-content-right-title'>що таке поділ</span>
+        <span className='about-content-right-title'>що таке ПоDeal</span>
         <p>
           наймасштабніший ярмарок кар’єрних можливостей у вінниці 
         </p>

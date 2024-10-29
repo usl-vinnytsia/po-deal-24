@@ -46,7 +46,7 @@ const Header = () => {
           </ul>
         </nav>
 
-        <a href="https://t.me/PoDeal_bot" className="header__register">
+        <a href="https://t.me/PoDeal_bot" className="header__register" target='blank'>
           <span>реєстрація</span>
           <img src={arrow} alt="arrow"></img>
         </a>
@@ -60,7 +60,7 @@ const Header = () => {
                 alt='close icon'
                 onClick={toggleMenu}
               />
-              <a href="https://t.me/PoDeal_bot" className="header__register">
+              <a href="https://t.me/PoDeal_bot" className="header__register" target='blank'>
                 <span>реєстрація</span>
                 <img src={arrow} alt="arrow"></img>
               </a>
