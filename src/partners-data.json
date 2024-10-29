@@ -2,101 +2,114 @@
   "partners": [
     {
       "id": 1,
-      "title": "Ria",
-      "image": "partner_logos/ria.png",
-      "type": "General",
-      "description": "Beneath the silver-hued sky, the crimson sea stretched endlessly, reflecting the gentle glow of distant stars. A lone ship drifted quietly, its sails catching the gentle breeze."
-    },
-    {
-      "id": 2,
       "title": "Промавтоматика вінниця",
       "image": "partner_logos/prom.png",
       "type": "General",
-      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
+      "description": "Компанія спеціалізується на розробках та подальшому виробництві електрообладнання, реалізовуємо продукцію власного виробництва і представляємо інтереси інших вітчизняних та іноземних виробників.",
+      "link": "https://www.pa.ua/"
     },
     {
-      "id": 3,
-      "title": "kness group",
-      "image": "partner_logos/kness.png",
-      "type": "General",
-      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
-    },
-    {
-      "id": 4,
+      "id": 2,
       "title": "roshen",
       "image": "partner_logos/roshen.png",
       "type": "General",
-      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
+      "description": "ROSHEN виробляє понад 320 найменувань високоякісних кондитерських виробів. Деякі з них не мають аналогів на ринку України. Загальний обсяг виробництва продукції сягає близько 300 тисяч тонн на рік.",
+      "link": "https://www.roshen.com/ua"
+    },
+    {
+      "id": 3,
+      "title": "nemiroff",
+      "image": "partner_logos/nemiroff.svg",
+      "type": "",
+      "description": "Nemiroff – український бренд із півторастолітньою історією, представлений на 5 континентах. Виробництво бере початок у 1872 році в місті Немирів, де було відкрито після реконструкції найбільшу на Поділлі винокурню. ",
+      "link": "https://nemiroff.vodka/"
+    },
+    {
+      "id": 4,
+      "title": "фора",
+      "image": "partner_logos/fora.svg",
+      "type": "",
+      "description": "Фора – понад 300 зручних магазинів біля дому для щоденних покупок. В асортименті – понад 15 000 найменувань продуктів харчування і побутових товарів.",
+      "link": "https://fora.ua/about/who-we-are"
     },
     {
       "id": 5,
-      "title": "nemiroff",
-      "image": "partner_logos/nemiroff.svg",
-      "type": "General",
-      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
+      "title": "Ria",
+      "image": "partner_logos/ria.png",
+      "type": "",
+      "description": "RIA.com — українська продуктова ІТ-компанія, яка розвиває маркетплейси AUTO.RIA, DIM.RIA, AGRO.RIA та RIA.com. Щодня 19 команд утілюють ідеї та створюють продукти, які стають лідерами ринку.",
+      "link": "https://www.ria.com/uk/"
     },
     {
       "id": 6,
-      "title": "epam",
-      "image": "partner_logos/epam.png",
-      "type": "General",
-      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
+      "title": "kness group",
+      "image": "partner_logos/kness.png",
+      "type": "",
+      "description": "Ліцензований постачальник електроенергії промисловим споживачам України, що працює на території усіх операторів систем розподілу, організатор балансуючих груп та мікромереж, оператор комплексу battery energy storage.",
+      "link": "https://trading.kness.energy/pro-nas/"
     },
     {
       "id": 7,
-      "title": "фора",
-      "image": "partner_logos/fora.svg",
-      "type": "General",
-      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
+      "title": "bhb group",
+      "image": "partner_logos/bhb.png",
+      "type": "",
+      "description": "BHB group — група компаній, націлених на безперервне зростання і розвиток. Ми працюємо на ринку FMCG вже більше 20 років. За цей час набули досвіду в дистрибуції, логістики, імпорті та експорті."
     },
     {
       "id": 8,
-      "title": "bhb group",
-      "image": "partner_logos/bhb.png",
-      "type": "General",
-      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
+      "title": "epam",
+      "image": "partner_logos/epam.png",
+      "type": "",
+      "description": "ЕРАМ в Україні – це 18 років відданої праці у сфері інноваційних розробок. А ще це майже 10,000 крутих фахівців по всій країні. Сьогодні ми разом робимо все можливе, часом і неможливе, щоб наблизити мир в Україні.",
+      "link": "https://careers.epam.ua/"
     },
     {
       "id": 9,
       "title": "ПриватБанк",
       "image": "partner_logos/PrivatBank.png",
       "type": "",
-      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
+      "description": "ПриватБанк – найбільший банк України, що рухає країну вперед. У найскладніші часи ми залишаємося стабільним та надійним партнером для фінансових справ українців.",
+      "link": "https://privatbank.ua/about"
     },
     {
       "id": 10,
       "title": "Tiras",
       "image": "partner_logos/tiras.svg",
       "type": "",
-      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
+      "description": "Це компанія, що  виробляє обладнання для побудови повної екосистеми безпеки - від датчика до центра моніторингу. Обладнання охороняє понад 1 000 000 об'єктів та  використовується понад 500 охоронними компаніями. ",
+      "link": "https://tiras.technology/"
+    },
+    {
+      "id": 11,
+      "title": "Аптека низьких цін",
+      "image": "partner_logos/anc.svg",
+      "type": "",
+      "description": "Місія компанії - наша місія полягає в тому, щоб допомагати людям жити більш здоровимі кращим життям, забезпечуючи їх якісними медичними послугами та медикаментами за доступними цінами.",
+      "link": "https://anc.ua/about_us"
     },
     {
       "id": 12,
-      "title": "Подорожник",
-      "image": "partner_logos/podor.png",
-      "type": "",
-      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
-    },
-    {
-      "id": 13,
       "title": "Укрзалізниця",
       "image": "partner_logos/ukrzaliznytsya.png",
       "type": "",
-      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
+      "description": "Акціонерне товариство «Українська залізниця» – національний перевізник вантажів та пасажирів. Метою діяльності товариства є задоволення потреб у безпечних та якісних залізничних перевезеннях, забезпечення ефективного функціонування та розвитку залізничного транспорту, створення умов для підвищення конкурентоспроможності галузі тощо.",
+      "link": "https://uz.gov.ua/about/"
     },
     {
-      "id": 14,
-      "title": "аврора",
-      "image": "partner_logos/avrora.svg",
-      "type": "",
-      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
-    },
-    {
-      "id": 15,
+      "id": 13,
       "title": "Вінницька транспортна компанія",
       "image": "partner_logos/vtk.png",
       "type": "",
-      "description": "In the heart of the urban landscape, modern architecture meets traditional design, creating a harmonious blend of past and present. The structure stands as a testament to innovation."
+      "description": "Вінницька транспортна компанія - одне з кращих підприємств міського електротранспорту України. Нині - це потужне комунальне підприємство  з загальною кількістю працюючих порядку 1700 чоловік, з необхідним технологічним обладнанням, базою служби енергогосподарства, автогосподарством, службою колії і кваліфікованими кадрами.",
+      "link": "https://www.facebook.com/vintransport"
+    },
+    {
+      "id": 14,
+      "title": "Патрульна поліція",
+      "image": "partner_logos/police.png",
+      "type": "",
+      "description": "Спочатку в патрульній поліції служило 2000 людей. За 9 років нас стало 20 000. Подати заяву на службу можна щодня. Навіть зараз",
+      "link": "https://patrolpolice.gov.ua/"
     }
   ]
 }
