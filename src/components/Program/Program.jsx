@@ -24,7 +24,7 @@ export const Program = () => {
         </div>
 
         <div className='program-main-bottom-txt'>
-          <p>
+          <p className='program-main-bottom-txt-none-mob'>
             Програма обіцяє бути цікавою
             Приходь на ПоDeal '24 - переймай досвід та надихайся!
           </p>
