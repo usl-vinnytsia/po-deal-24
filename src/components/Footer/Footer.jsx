@@ -42,7 +42,7 @@ export const Footer = () => {
               <Link to="partners" smooth={true} duration={500}>партнери</Link>
             </li>
             <li>
-              <Link to="partners" smooth={true} duration={500}>про ПоDeal `24</Link>
+              <Link to="about" smooth={true} duration={500}>про ПоDeal `24</Link>
             </li>
           </ul>
           <ul>
