@@ -3,6 +3,7 @@
 @use "../../styles/mixins" as *;
 
 .main-screen {
+  overflow-x: hidden;
   width: 100%;
   background-color: $dark-color;
   background-image: url('../../images/layerGraine.png');
