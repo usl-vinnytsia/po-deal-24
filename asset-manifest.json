@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/po-deal-24/static/css/main.2beaf734.css",
-    "main.js": "/po-deal-24/static/js/main.956c31e0.js",
+    "main.js": "/po-deal-24/static/js/main.0053ff6a.js",
     "static/media/teamRight.webp": "/po-deal-24/static/media/teamRight.9e45d56772c25c634ec2.webp",
     "static/media/layerGraine.webp": "/po-deal-24/static/media/layerGraine.2dcf9fad87fa0d274258.webp",
     "static/media/Gilroy-Thin.ttf": "/po-deal-24/static/media/Gilroy-Thin.fc813b757bc09eb509dc.ttf",
@@ -27,10 +27,10 @@
     "static/media/link-arrow.svg": "/po-deal-24/static/media/link-arrow.b7e2ea52d84d2b5d410d2afe1954e326.svg",
     "static/media/burger.svg": "/po-deal-24/static/media/burger.7b5c477476e4801d944fd0735680c66e.svg",
     "main.2beaf734.css.map": "/po-deal-24/static/css/main.2beaf734.css.map",
-    "main.956c31e0.js.map": "/po-deal-24/static/js/main.956c31e0.js.map"
+    "main.0053ff6a.js.map": "/po-deal-24/static/js/main.0053ff6a.js.map"
   },
   "entrypoints": [
     "static/css/main.2beaf734.css",
-    "static/js/main.956c31e0.js"
+    "static/js/main.0053ff6a.js"
   ]
 }
