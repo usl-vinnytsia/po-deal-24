@@ -1,23 +1,23 @@
 @font-face {
   font-family: "Gilroy-Thin";
-  src: url(../fonts/Gilroy-Thin.ttf);
+  src: url(../fonts/Gilroy-Thin.ttf), url(../fonts/Gilroy-Thin.woff), url(../fonts/Gilroy-Thin.woff2);
   font-weight: 100;
 }
 
 @font-face {
-    font-family: "Gilroy-Light";
-    src: url(../fonts/Gilroy-Light.otf);
-    font-weight: 300;
+  font-family: "Gilroy-Light";
+  src: url(../fonts/Gilroy-Light.otf), url(../fonts/Gilroy-Light.woff), url(../fonts/Gilroy-Light.woff2);
+  font-weight: 300;
 }
 
 @font-face {
   font-family: "Gilroy-Regular";
-  src: url(../fonts/Gilroy-Regular.ttf);
+  src: url(../fonts/Gilroy-Regular.ttf), url(../fonts/Gilroy-Regular.woff), url(../fonts/Gilroy-Regular.woff2);
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Gilroy-Medium";
-  src: url(../fonts/Gilroy-Medium.ttf);
+  src: url(../fonts/Gilroy-Medium.ttf), url(../fonts/Gilroy-Medium.woff), url(../fonts/Gilroy-Medium.woff2);
   font-weight: 500;
 }
