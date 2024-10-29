@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/po-deal-24/static/css/main.276913e6.css",
+    "main.js": "/po-deal-24/static/js/main.230bdf81.js",
+    "static/media/layerGraine.webp": "/po-deal-24/static/media/layerGraine.2dcf9fad87fa0d274258.webp",
+    "static/media/Gilroy-Thin.ttf": "/po-deal-24/static/media/Gilroy-Thin.fc813b757bc09eb509dc.ttf",
+    "static/media/Gilroy-Medium.ttf": "/po-deal-24/static/media/Gilroy-Medium.1c23f810e531d0702f76.ttf",
+    "static/media/Gilroy-Regular.ttf": "/po-deal-24/static/media/Gilroy-Regular.fa652e766b6a85a1f9cb.ttf",
+    "static/media/Gilroy-Medium.woff": "/po-deal-24/static/media/Gilroy-Medium.684052b1d35d5e2609d1.woff",
+    "static/media/Gilroy-Thin.woff": "/po-deal-24/static/media/Gilroy-Thin.18c177374437fed7c8cb.woff",
+    "static/media/main-screen.webp": "/po-deal-24/static/media/main-screen.3e69a6910dc834ff23f5.webp",
+    "static/media/Gilroy-Light.otf": "/po-deal-24/static/media/Gilroy-Light.cc7ab55d27205bd64001.otf",
+    "static/media/programBG.webp": "/po-deal-24/static/media/programBG.06d867c688f1febc836b.webp",
+    "static/media/Gilroy-Medium.woff2": "/po-deal-24/static/media/Gilroy-Medium.6d4fe92108fabc331d2b.woff2",
+    "static/media/Gilroy-Thin.woff2": "/po-deal-24/static/media/Gilroy-Thin.7015aaafe7153b48f8a6.woff2",
+    "static/media/Gilroy-Light.woff": "/po-deal-24/static/media/Gilroy-Light.a4db794b66592cfe3735.woff",
+    "static/media/Gilroy-Regular.woff": "/po-deal-24/static/media/Gilroy-Regular.5a3f7bf1a36d8d171f55.woff",
+    "static/media/Gilroy-Light.woff2": "/po-deal-24/static/media/Gilroy-Light.87cbc692715c691daa2f.woff2",
+    "static/media/Gilroy-Regular.woff2": "/po-deal-24/static/media/Gilroy-Regular.c61e4fb91b34b947703c.woff2",
+    "static/media/teamRight.webp": "/po-deal-24/static/media/teamRight.02cac24d377afe97ca83.webp",
+    "static/media/programBGmob.webp": "/po-deal-24/static/media/programBGmob.6f6cbce9c705c98d39fb.webp",
+    "static/media/DealLogo.svg": "/po-deal-24/static/media/DealLogo.1d106493cedf26618f6372e436bf5b00.svg",
+    "static/media/teamLeft.webp": "/po-deal-24/static/media/teamLeft.8e6ad8c2f831b4115612.webp",
+    "static/media/arrow.svg": "/po-deal-24/static/media/arrow.a171713e98bc19459e6d94793ceeb274.svg",
+    "index.html": "/po-deal-24/index.html",
+    "static/media/close.svg": "/po-deal-24/static/media/close.981a0d258a11ce3e1eb8f68352899906.svg",
+    "static/media/link-arrow.svg": "/po-deal-24/static/media/link-arrow.b7e2ea52d84d2b5d410d2afe1954e326.svg",
+    "static/media/burger.svg": "/po-deal-24/static/media/burger.7b5c477476e4801d944fd0735680c66e.svg",
+    "main.276913e6.css.map": "/po-deal-24/static/css/main.276913e6.css.map",
+    "main.230bdf81.js.map": "/po-deal-24/static/js/main.230bdf81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.276913e6.css",
+    "static/js/main.230bdf81.js"
+  ]
+}
