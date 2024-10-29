@@ -16,9 +16,9 @@ function App() {
       <Header />
       <MainScreen />
       <About />
-      <Team />
       <Partners />
       <Program />
+      <Team />
       <Footer />
     </main>
   );
