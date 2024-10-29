@@ -5,7 +5,6 @@
 .team {
   width: 100%;
   margin-top: 150px;
-  // height: 150vh;
   height: max-content;
   z-index: 10;
   background: none;
@@ -32,6 +31,9 @@
 .team-left-img {
   width: 268px !important;
   height: 278px !important;
+}
+.team-right-img {
+  width: 690.759px;
 }
 .team-left-photo-descr {
   width: 270px;
@@ -84,8 +86,7 @@
 
 .team-right-descr {
   position: relative;
-  width: 380px;
-  margin-top: 580px;
+  width: 315px;
   text-align: right;
   color: $light-color;
   text-align: right;
@@ -112,7 +113,6 @@
 
   .team-right-img {
     width: 343px !important;
-    height: 288px !important;
   }
 
   .team-right-title {
