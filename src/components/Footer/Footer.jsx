@@ -23,7 +23,6 @@ export const Footer = () => {
             <li>
               <a href="https://www.instagram.com/usl.vn/" target='blank'>
                 Вінницький відокремлений підрозділ УСЛ
-
               </a>
             </li>
             <li>
