@@ -1,6 +1,6 @@
 import './Team.scss';
 import teamLeft from '../../images/teamLeft.png';
-import teamRight from '../../images/teamRight.png';
+import teamRight from '../../images/teamRight.webp';
 
 
 const Team = () => {
