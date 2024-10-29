@@ -1,5 +1,6 @@
 @use "../../styles/variables" as *;
 @use "../../styles/container" as container;
+@use "../../styles/mixins" as *;
 
 .program {
   margin: 0;
@@ -16,7 +17,8 @@
 
 .program-main {
   width: 100%;
-  height: 500px;
+  height: max-content;
+  margin: 0 auto;
   color: $light-color;
   background-image: url(../../images/programBG.png);
   background-repeat: no-repeat;
@@ -32,23 +34,29 @@
   width: 95%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  position: relative;
-  margin: 0 auto;
 }
 
-.program-main-about span {
+.program-main-about-info {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.program-main-about-info span {
   margin: 0;
   transform: translateY(var(--offset, 0px));
 }
-.program-main-about span:nth-child(1) {
+.program-main-about-info span:nth-child(1) {
   --offset: -80px;
 }
-.program-main-about span:nth-child(2) {
+.program-main-about-info span:nth-child(2) {
   --offset: -40px;
 }
-.program-main-about span:nth-child(3) {
+.program-main-about-info span:nth-child(3) {
   --offset: 20px;
 }
 
@@ -104,12 +112,12 @@ th {
   cursor: pointer;
 }
 .tab:hover {
-  background-color: $light-color; 
-  color: $dark-color; 
+  background-color: $light-color;
+  color: $dark-color;
 }
 
 .tab.active {
-  background-color: $light-color; 
+  background-color: $light-color;
   color: $dark-color;
 }
 table tr td {
@@ -140,11 +148,13 @@ table tr th:nth-child(3) {
   text-align: right;
 }
 
-td:first-child, th:first-child {
+td:first-child,
+th:first-child {
   padding-left: 80px;
 }
 
-td:last-child, th:last-child {
+td:last-child,
+th:last-child {
   padding-right: 80px;
 }
 
@@ -153,5 +163,155 @@ td:last-child, th:last-child {
     font-size: 14px;
     line-height: 16px;
     opacity: 0.6;
+  }
+}
+// mobile schedule
+.program__container_mobile {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: none;
+  p {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+// end of mobile schedule
+
+@include onMobile {
+  .program-main {
+    background-image: url(../../images/programBGmob.png);
+    width: 100%;
+    height: max-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 426px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+
+  .program-main-about {
+    width: 100%;
+    height: 426px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .program-main-about-info {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 16px;
+  }
+
+  .program-main-about-info span:nth-child(-n + 3) {
+    --offset: 0px;
+  }
+
+  .program-main-title {
+    font-size: 44px;
+    width: 300px;
+    text-align: right;
+    margin-right: 16px;
+  }
+
+  .program-main-bottom-txt {
+    margin: 0;
+    margin-top: 77px;
+    margin-bottom: 22px;
+  }
+
+  .program-main-bottom-txt p {
+    font-size: 22px;
+    text-align: justify;
+  }
+
+  .program-main-bottom-txt-year {
+    display: none;
+  }
+
+  .program__container_mobile {
+    display: block;
+  }
+
+  .program__container {
+    display: none;
+  }
+
+  .tabs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .event {
+    text-align: center;
+  }
+
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 16px;
+  }
+
+  .tab {
+    width: 100%;
+    background-color: transparent;
+    font-size: 22px;
+    text-align: center;
+    color: $light-color;
+    font-family: $font-main;
+    text-transform: uppercase;
+    font-weight: 300;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .events-divider {
+    width: 100%;
+    margin: 0;
+    height: 1px;
+    color: $light-color;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .tab:hover {
+    background-color: $light-color;
+    color: $dark-color;
+  }
+
+  .tab.active {
+    background-color: $light-color;
+    color: $dark-color;
+  }
+
+  .events {
+    display: grid;
+  }
+
+  .event {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .event-time,
+  .event-type,
+  .event-title,
+  .event-person {
+    margin: 4px 0;
+  }
+  .event-time,
+  .event-person,
+  .event-type {
+    font-size: 16px;
+  }
+  .event-title {
+    font-size: 22px;
   }
 }
