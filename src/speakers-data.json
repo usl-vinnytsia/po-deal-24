@@ -62,7 +62,7 @@
             "person_image": "speakers_logos/drozhak.webp",
             "type": "",
             "position": "Architect, Principal SWE, \nco-founder at Rovertech",
-            "description": "Компанія, яка робить правильні ровери.",
+            "description": "Rovertech - компанія, яка робить правильні ровери.",
             "personal_media": "https://www.instagram.com/the_borys_official?igsh=MW0wZTE4OTE2MHl0Mg==",
             "link": "https://rovertech.co.ua/?fbclid=PAZXh0bgNhZW0CMTEAAaYx9AqaPm8QLWBannCt2rSFwtqeD-o1Vh-la7j7NLpNbwDaubinS4mi8Ug_aem_PPyDaTNzkh6_flg7vO5Crg"
         },
@@ -116,10 +116,10 @@
             "image": "speakers_logos/mate.svg",
             "person_image": "speakers_logos/labuk.webp",
             "type": "",
-            "position": "співзасновниця YaSvit",
-            "description": "панельна дискусія на тему: \"Онлайн-курси як альтернатива традиційній освіті: переваги та виклики\"",
+            "position": "Head of the Partnership and Career Development departments Mate academy",
+            "description": " Mate academy - онлайн академія ІТ-професій",
             "personal_media": "",
-            "link": "https://osvita.diia.gov.ua/"
+            "link": "https://mate.academy/"
         },
         {
             "id": 14,
@@ -127,10 +127,10 @@
             "image": "speakers_logos/hillel.webp",
             "person_image": "speakers_logos/drumov.webp",
             "type": "",
-            "position": "співзасновниця YaSvit",
-            "description": "Керівниця \"Дія.Освіта\". Лекція на тему: \"Що таке \"Дія Освіта\"?\"",
+            "position": "CEO&Co-Founder – Hillel IT School",
+            "description": "Hillel IT School – одна з найбільших IT-шкіл в Україні, і з кожним роком вони продовжують розвиватися і впроваджувати інновації у навчання.",
             "personal_media": "https://www.instagram.com/vadymdrumov?igsh=MWU2M2Y3dHpud2Jhdw==",
-            "link": "https://osvita.diia.gov.ua/"
+            "link": "https://ithillel.ua/"
         },
         {
             "id": 15,
