@@ -35,17 +35,6 @@
         },
         {
             "id": 4,
-            "title": "Вікторія Козумляк",
-            "image": "speakers_logos/lordofboards.webp",
-            "person_image": "speakers_logos/kozumliak.webp",
-            "type": "",
-            "position": "співзасновниця магазину «Lord of Boards»",
-            "description": "«Lord of Boards» – це магазин настільних ігор, який з любов’ю створила дружня сім’я. Поділиться, як змогла перетворити своє захоплення в прибуткову справу",
-            "personal_media": "https://www.instagram.com/viktoriya_kozumliak?igsh=MWN0bnNqd3VlMTFycQ==",
-            "link": "https://lordofboards.com.ua/o-nas/"
-        },
-        {
-            "id": 5,
             "title": "Дмитро Негорілий",
             "image": "speakers_logos/sdc.webp",
             "person_image": "speakers_logos/negoriliy.webp",
@@ -54,6 +43,17 @@
             "description": "soul dance centre – СТУДІЯ ТАНЦІВ, Поділиться, як зміг перетворити своє захоплення в прибуткову справу",
             "personal_media": "https://www.instagram.com/dmytro.negorilyi?igsh=eXdweWl0bHViZWpy",
             "link": "https://souldancecentre.com/"
+        },
+        {
+            "id": 5,
+            "title": "Вікторія Козумляк",
+            "image": "speakers_logos/lordofboards.webp",
+            "person_image": "speakers_logos/kozumliak.webp",
+            "type": "",
+            "position": "співзасновниця магазину «Lord of Boards»",
+            "description": "«Lord of Boards» – це магазин настільних ігор, який з любов’ю створила дружня сім’я. Поділиться, як змогла перетворити своє захоплення в прибуткову справу",
+            "personal_media": "https://www.instagram.com/viktoriya_kozumliak?igsh=MWN0bnNqd3VlMTFycQ==",
+            "link": "https://lordofboards.com.ua/o-nas/"
         },
         {
             "id": 6,
@@ -69,7 +69,7 @@
         {
             "id": 7,
             "title": "Борис Дрожак",
-            "image": "partner_logos/rover.webp",
+            "image": "speakers_logos/rover.webp",
             "person_image": "speakers_logos/drozhak.webp",
             "type": "",
             "position": "Architect, Principal SWE, co-founder at Rovertech",
@@ -80,7 +80,7 @@
         {
             "id": 8,
             "title": "Сергій Фомін",
-            "image": "partner_logos/hillel.webp",
+            "image": "speakers_logos/hillel.webp",
             "person_image": "speakers_logos/fomin.webp",
             "type": "",
             "position": "Head of IT Department",
@@ -91,7 +91,7 @@
         {
             "id": 9,
             "title": "Руслана Коренчук",
-            "image": "partner_logos/diia.webp",
+            "image": "speakers_logos/diia.webp",
             "person_image": "speakers_logos/kor_diia.webp",
             "type": "",
             "position": "",
@@ -102,7 +102,7 @@
         {
             "id": 10,
             "title": "Еліна Дядюшенко",
-            "image": "partner_logos/jooble.webp",
+            "image": "speakers_logos/jooble.webp",
             "person_image": "speakers_logos/elina.webp",
             "type": "",
             "position": "HR jooble",
@@ -124,7 +124,7 @@
         {
             "id": 12,
             "title": "Ольга Смалій",
-            "image": "partner_logos/nads.webp",
+            "image": "speakers_logos/nads.webp",
             "person_image": "speakers_logos/smaliy.webp",
             "type": "",
             "position": "",
@@ -135,7 +135,7 @@
         {
             "id": 13,
             "title": "Альона Лабюк",
-            "image": "partner_logos/diia.webp",
+            "image": "speakers_logos/mate.webp",
             "person_image": "speakers_logos/suhak.webp",
             "type": "",
             "position": "співзасновниця YaSvit",
