@@ -113,7 +113,7 @@
         {
             "id": 11,
             "title": "Галина Якубович",
-            "image": "partner_logos/diia.webp",
+            "image": "speakers_logos/vmr.webp",
             "person_image": "speakers_logos/suhak.webp",
             "type": "",
             "position": "Заступниця міського голови",
@@ -146,7 +146,7 @@
         {
             "id": 14,
             "title": "Вадим Друмов",
-            "image": "partner_logos/diia.webp",
+            "image": "speakers_logos/diia.webp",
             "person_image": "speakers_logos/suhak.webp",
             "type": "",
             "position": "співзасновниця YaSvit",
@@ -157,7 +157,7 @@
         {
             "id": 15,
             "title": "Аліна Таратун",
-            "image": "partner_logos/diia.webp",
+            "image": "speakers_logos/skvot.webp",
             "person_image": "speakers_logos/taratun.webp",
             "type": "",
             "position": "Head of Skvot Production",
