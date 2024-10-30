@@ -1,6 +1,84 @@
 {
     "speakers": [
         {
+            "id": 16,
+            "title": "Анна Алєксєєнко",
+            "image": "speakers_logos/onlydiia.webp",
+            "person_image": "speakers_logos/alekseenko.webp",
+            "type": "",
+            "position": "Head of SMM at Дія",
+            "description": "",
+            "personal_media": "https://www.instagram.com/a.alekseyenko?igsh=NWdmMG13bHJxYnI=",
+            "link": "https://diia.gov.ua/"
+        },
+        {
+            "id": 14,
+            "title": "Вадим Друмов",
+            "image": "speakers_logos/hillel.webp",
+            "person_image": "speakers_logos/drumov.webp",
+            "type": "",
+            "position": "CEO&Co-Founder – Hillel IT School",
+            "description": "Hillel IT School – одна з найбільших IT-шкіл в Україні, і з кожним роком вони продовжують розвиватися і впроваджувати інновації у навчання.",
+            "personal_media": "https://www.instagram.com/vadymdrumov?igsh=MWU2M2Y3dHpud2Jhdw==",
+            "link": "https://ithillel.ua/"
+        },
+        {
+            "id": 10,
+            "title": "Еліна Дядюшенко",
+            "image": "speakers_logos/jooble.webp",
+            "person_image": "speakers_logos/elina.webp",
+            "type": "",
+            "position": "HR Jooble",
+            "description": "Jooble – це міжнародний сайт з пошуку роботи, яким щодня користуються мільйони людей у 67 країнах світу.",
+            "personal_media": "https://www.instagram.com/elinakuzmenko05?igsh=Njl6YjViNWtobTht",
+            "link": "https://ua.jooble.org/info/about"
+        },
+        {
+            "id": 9,
+            "title": "Руслана Коренчук",
+            "image": "speakers_logos/kor_diia.webp",
+            "person_image": "speakers_logos/korniychuck.webp",
+            "type": "",
+            "position": "",
+            "description": "Очільниця напрямку розвитку цифрових навичок та проєкту \"Дія.Освіта\" Міністества цифрової трансформації",
+            "personal_media": "https://www.instagram.com/ruslana_korenchuk?igsh=azlreWltcDhhcGM5",
+            "link": "https://osvita.diia.gov.ua/"
+        },
+        {
+            "id": 13,
+            "title": "Альона Лабюк",
+            "image": "speakers_logos/mate.svg",
+            "person_image": "speakers_logos/labuk.webp",
+            "type": "",
+            "position": "Head of the Partnership and Career Development departments Mate academy",
+            "description": " Mate academy - онлайн академія ІТ-професій",
+            "personal_media": "",
+            "link": "https://mate.academy/"
+        },
+        
+        {
+            "id": 15,
+            "title": "Аліна Таратун",
+            "image": "speakers_logos/skvotpng.webp",
+            "person_image": "speakers_logos/taratun.webp",
+            "type": "",
+            "position": "Head of Skvot Production",
+            "description": "Skvot — це онлайн-школа популярної культури. Вони навчають тих, хто завтра формуватиме нові сенси в контексті світової сучасної культури — в креативі, маркетингу, геймдеві, мистецтві, архітектурі.",
+            "personal_media": "https://www.instagram.com/taratun?igsh=YmgyNmNlbzdxcXlu",
+            "link": "https://skvot.io/uk/"
+        },
+        {
+            "id": 4,
+            "title": "Дмитро Негорілий",
+            "image": "speakers_logos/sdc.webp",
+            "person_image": "speakers_logos/negoriliy.webp",
+            "type": "",
+            "position": "співзасновник soul dance centre",
+            "description": "SOUL DANCE CENTRE – студія танців. Поділиться, як зміг перетворити своє захоплення в прибуткову справу",
+            "personal_media": "https://www.instagram.com/dmytro.negorilyi?igsh=eXdweWl0bHViZWpy",
+            "link": "https://souldancecentre.com/"
+        },
+        {
             "id": 1,
             "title": "Юлія Заяць",
             "image": "speakers_logos/YaSvit.webp",
@@ -32,17 +110,6 @@
             "description": "ДУЕТ – це простір, в основі якого є кавова школа. Поділиться, як зміг перетворити своє захоплення в прибуткову справу",
             "personal_media": "https://www.instagram.com/andromeda_svr?igsh=N3lwb2lxY21mdTA0",
             "link": "https://www.instagram.com/duet.community/"
-        },
-        {
-            "id": 4,
-            "title": "Дмитро Негорілий",
-            "image": "speakers_logos/sdc.webp",
-            "person_image": "speakers_logos/negoriliy.webp",
-            "type": "",
-            "position": "співзасновник soul dance centre",
-            "description": "SOUL DANCE CENTRE – студія танців. Поділиться, як зміг перетворити своє захоплення в прибуткову справу",
-            "personal_media": "https://www.instagram.com/dmytro.negorilyi?igsh=eXdweWl0bHViZWpy",
-            "link": "https://souldancecentre.com/"
         },
         {
             "id": 5,
@@ -78,28 +145,6 @@
             "link": "https://ithillel.ua/"
         },
         {
-            "id": 9,
-            "title": "Руслана Коренчук",
-            "image": "speakers_logos/kor_diia.webp",
-            "person_image": "speakers_logos/korniychuck.webp",
-            "type": "",
-            "position": "",
-            "description": "Очільниця напрямку розвитку цифрових навичок та проєкту \"Дія.Освіта\" Міністества цифрової трансформації",
-            "personal_media": "https://www.instagram.com/ruslana_korenchuk?igsh=azlreWltcDhhcGM5",
-            "link": "https://osvita.diia.gov.ua/"
-        },
-        {
-            "id": 10,
-            "title": "Еліна Дядюшенко",
-            "image": "speakers_logos/jooble.webp",
-            "person_image": "speakers_logos/elina.webp",
-            "type": "",
-            "position": "HR Jooble",
-            "description": "Jooble – це міжнародний сайт з пошуку роботи, яким щодня користуються мільйони людей у 67 країнах світу.",
-            "personal_media": "https://www.instagram.com/elinakuzmenko05?igsh=Njl6YjViNWtobTht",
-            "link": "https://ua.jooble.org/info/about"
-        },
-        {
             "id": 12,
             "title": "Ольга Смалій",
             "image": "speakers_logos/nads.webp",
@@ -109,50 +154,6 @@
             "description": "начальниця Західного міжрегіонального управління Національного агентства України з питань державної служби",
             "personal_media": "",
             "link": "https://nads.gov.ua/"
-        },
-        {
-            "id": 13,
-            "title": "Альона Лабюк",
-            "image": "speakers_logos/mate.svg",
-            "person_image": "speakers_logos/labuk.webp",
-            "type": "",
-            "position": "Head of the Partnership and Career Development departments Mate academy",
-            "description": " Mate academy - онлайн академія ІТ-професій",
-            "personal_media": "",
-            "link": "https://mate.academy/"
-        },
-        {
-            "id": 14,
-            "title": "Вадим Друмов",
-            "image": "speakers_logos/hillel.webp",
-            "person_image": "speakers_logos/drumov.webp",
-            "type": "",
-            "position": "CEO&Co-Founder – Hillel IT School",
-            "description": "Hillel IT School – одна з найбільших IT-шкіл в Україні, і з кожним роком вони продовжують розвиватися і впроваджувати інновації у навчання.",
-            "personal_media": "https://www.instagram.com/vadymdrumov?igsh=MWU2M2Y3dHpud2Jhdw==",
-            "link": "https://ithillel.ua/"
-        },
-        {
-            "id": 15,
-            "title": "Аліна Таратун",
-            "image": "speakers_logos/skvotpng.webp",
-            "person_image": "speakers_logos/taratun.webp",
-            "type": "",
-            "position": "Head of Skvot Production",
-            "description": "Skvot — це онлайн-школа популярної культури. Вони навчають тих, хто завтра формуватиме нові сенси в контексті світової сучасної культури — в креативі, маркетингу, геймдеві, мистецтві, архітектурі.",
-            "personal_media": "https://www.instagram.com/taratun?igsh=YmgyNmNlbzdxcXlu",
-            "link": "https://skvot.io/uk/"
-        },
-        {
-            "id": 16,
-            "title": "Анна Алєксєєнко",
-            "image": "speakers_logos/onlydiia.webp",
-            "person_image": "speakers_logos/alekseenko.webp",
-            "type": "",
-            "position": "Head of SMM at Дія",
-            "description": "",
-            "personal_media": "https://www.instagram.com/a.alekseyenko?igsh=NWdmMG13bHJxYnI=",
-            "link": "https://diia.gov.ua/"
         },
         {
             "id": 17,
