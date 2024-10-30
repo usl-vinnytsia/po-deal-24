@@ -165,12 +165,12 @@
 
       .speakers-card__info--logo {
         height: 60px;
-        width: 356px;
       }
     }
 
     &:nth-child(odd) {
       margin-top: 50px;
+      width: 356px;
     }
   }
 }
