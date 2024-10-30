@@ -8,6 +8,7 @@ import Team from './components/Team/Team';
 import { Partners } from './components/Partners/Partners';
 import { Program } from './components/Program/Program';
 import { Footer } from './components/Footer/Footer';
+import { Speakers } from './components/Speakers/Speakers';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Partners />
       <Program />
+      <Speakers />
       <Team />
       <Footer />
     </main>
