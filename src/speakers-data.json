@@ -146,7 +146,7 @@
         {
             "id": 15,
             "title": "Аліна Таратун",
-            "image": "speakers_logos/skvot.webp",
+            "image": "speakers_logos/skvotpng.webp",
             "person_image": "speakers_logos/taratun.webp",
             "type": "",
             "position": "Head of Skvot Production",
@@ -157,7 +157,7 @@
         {
             "id": 16,
             "title": "Анна Алєксєєнко",
-            "image": "partner_logos/onlydiia.webp",
+            "image": "speakers_logos/onlydiia.webp",
             "person_image": "speakers_logos/alekseenko.webp",
             "type": "",
             "position": "Head of SMM at Дія",
@@ -168,7 +168,7 @@
         {
             "id": 17,
             "title": "Марія Дрожак",
-            "image": "partner_logos/rover.webp",
+            "image": "speakers_logos/rover.webp",
             "person_image": "speakers_logos/mariaDrozhak.webp",
             "type": "",
             "position": "Growth Marketing Lead в Rovertech LLC",
