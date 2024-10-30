@@ -3,6 +3,8 @@
 
 .speakers-scrollbar {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 160px;
   overflow-x: auto;
   overflow-y: hidden;
@@ -188,4 +190,10 @@
     align-items: start;
     gap: 10px;
   }
+}
+
+.others {
+  text-transform: uppercase;
+  color: $light-color;
+  font-size: 60px;
 }

@@ -100,6 +100,7 @@ export const SpeakersSlider = () => {
           </p>
         </div>
       ))}
+      <p className="speakers-scrollbar__card speakers-card others">та інші...</p>
     </div>
   );
 };
