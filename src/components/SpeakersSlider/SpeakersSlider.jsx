@@ -83,6 +83,7 @@ export const SpeakersSlider = () => {
         <div
           key={`${speaker.id}-${index}`}
           className="speakers-scrollbar__card speakers-card"
+          id={`speakers-card--${speaker.id}`}
         >
           <img className="speakers-card__image" alt='speaker' src={speaker.person_image} />
           <div className="speakers-card__info">
