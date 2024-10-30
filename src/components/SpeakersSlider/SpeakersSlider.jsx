@@ -91,7 +91,9 @@ export const SpeakersSlider = () => {
               <p className="speakers-card__info--left">{speaker.title}</p>
               <p className="speakers-card__info--right">{speaker.position}</p>
             </div>
-            <img src={speaker.image} alt={speaker.title} className="speakers-card__info--logo" />
+            {speaker.image ? (
+              <img src={speaker.image} alt={speaker.title} className="speakers-card__info--logo" />
+            ) : ''}
           </div>
           <p className="speakers-card__description">
             {speaker.description}
