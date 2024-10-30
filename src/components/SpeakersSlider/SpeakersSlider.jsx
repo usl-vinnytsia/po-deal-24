@@ -8,6 +8,9 @@ const SLIDE_CARDS = 2;
 
 
 export const SpeakersSlider = () => {
+  const misha = '/speakers_logos/hanchuk.webp';
+  const pa = '/partner_logos/prom.webp'; 
+
   const scrollContainerRef = useRef(null);
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
@@ -60,6 +63,22 @@ export const SpeakersSlider = () => {
       onMouseUp={handleMouseUp}
       onMouseLeave={handleMouseUp}
     >
+      <div
+        key={0}
+        className="speakers-scrollbar__card speakers-card"
+      >
+        <img className="speakers-card__image" alt='speaker' src={misha} />
+        <div className="speakers-card__info" id='misha'>
+          <div className="speakers-card__info--text">
+            <p className="speakers-card__info--left">Михайло Ганчук</p>
+            <p className="speakers-card__info--right">CЕО Промавтоматика</p>
+          </div>
+          <img src={pa} alt="Михайло Ганчук" className="speakers-card__info--logo" />
+        </div>
+        <p className="speakers-card__description">
+        Промавтоматика – компанія спеціалізується на розробках та подальшому виробництві електрообладнання, реалізовуємо продукцію власного виробництва.
+        </p>
+      </div>
       {speakersData.speakers.map((speaker, index) => (
         <div
           key={`${speaker.id}-${index}`}
