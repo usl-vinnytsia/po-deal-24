@@ -91,8 +91,8 @@
         {
             "id": 9,
             "title": "Руслана Коренчук",
-            "image": "speakers_logos/diia.webp",
-            "person_image": "speakers_logos/kor_diia.webp",
+            "image": "speakers_logos/kor_diia.webp",
+            "person_image": "speakers_logos/korniychuck.webp",
             "type": "",
             "position": "",
             "description": "Очільниця напрямку розвитку цифрових навичок та проєкту \"Дія.Освіта\" Міністества цифрової трансформації",
@@ -111,17 +111,6 @@
             "link": "https://ua.jooble.org/info/about"
         },
         {
-            "id": 11,
-            "title": "Галина Якубович",
-            "image": "speakers_logos/vmr.webp",
-            "person_image": "speakers_logos/suhak.webp",
-            "type": "",
-            "position": "Заступниця міського голови",
-            "description": "",
-            "personal_media": "",
-            "link": ""
-        },
-        {
             "id": 12,
             "title": "Ольга Смалій",
             "image": "speakers_logos/nads.webp",
@@ -136,18 +125,18 @@
             "id": 13,
             "title": "Альона Лабюк",
             "image": "speakers_logos/mate.webp",
-            "person_image": "speakers_logos/suhak.webp",
+            "person_image": "speakers_logos/labuk.webp",
             "type": "",
             "position": "співзасновниця YaSvit",
             "description": "панельна дискусія на тему: \"Онлайн-курси як альтернатива традиційній освіті: переваги та виклики\"",
-            "personal_media": "https://www.instagram.com/helenlabuk?igsh=MTE4anozZ29nZmg3dg==",
+            "personal_media": "",
             "link": "https://osvita.diia.gov.ua/"
         },
         {
             "id": 14,
             "title": "Вадим Друмов",
-            "image": "speakers_logos/diia.webp",
-            "person_image": "speakers_logos/suhak.webp",
+            "image": "speakers_logos/hillel.webp",
+            "person_image": "speakers_logos/drumov.webp",
             "type": "",
             "position": "співзасновниця YaSvit",
             "description": "Керівниця \"Дія.Освіта\". Лекція на тему: \"Що таке \"Дія Освіта\"?\"",
@@ -168,19 +157,19 @@
         {
             "id": 16,
             "title": "Анна Алєксєєнко",
-            "image": "partner_logos/diia.webp",
-            "person_image": "speakers_logos/suhak.webp",
+            "image": "partner_logos/onlydiia.webp",
+            "person_image": "speakers_logos/alekseenko.webp",
             "type": "",
-            "position": "співзасновниця YaSvit",
-            "description": "Керівниця \"Дія.Освіта\". Лекція на тему: \"Що таке \"Дія Освіта\"?\"",
-            "personal_media": "",
-            "link": "https://osvita.diia.gov.ua/"
+            "position": "Head of SMM at Дія",
+            "description": "",
+            "personal_media": "https://www.instagram.com/a.alekseyenko?igsh=NWdmMG13bHJxYnI=",
+            "link": "https://diia.gov.ua/"
         },
         {
             "id": 17,
             "title": "Марія Дрожак",
             "image": "partner_logos/rover.webp",
-            "person_image": "speakers_logos/drozhak.webp",
+            "person_image": "speakers_logos/mariaDrozhak.webp",
             "type": "",
             "position": "Growth Marketing Lead в Rovertech LLC",
             "description": "Rovertech LLC - компанія, яка робить правильні ровери.",
@@ -197,39 +186,6 @@
             "description": "",
             "personal_media": "https://www.instagram.com/nastya.onypchuk?igsh=MTFrN3d3end0djAyNg==",
             "link": ""
-        },
-        {
-            "id": 19,
-            "title": "Руслана Коренчук",
-            "image": "partner_logos/diia.webp",
-            "person_image": "speakers_logos/suhak.webp",
-            "type": "",
-            "position": "співзасновниця YaSvit",
-            "description": "Керівниця \"Дія.Освіта\". Лекція на тему: \"Що таке \"Дія Освіта\"?\"",
-            "personal_media": "",
-            "link": "https://osvita.diia.gov.ua/"
-        },
-        {
-            "id": 20,
-            "title": "Руслана Коренчук",
-            "image": "partner_logos/diia.webp",
-            "person_image": "speakers_logos/suhak.webp",
-            "type": "",
-            "position": "співзасновниця YaSvit",
-            "description": "Керівниця \"Дія.Освіта\". Лекція на тему: \"Що таке \"Дія Освіта\"?\"",
-            "personal_media": "",
-            "link": "https://osvita.diia.gov.ua/"
-        },
-        {
-            "id": 21,
-            "title": "Руслана Коренчук",
-            "image": "partner_logos/diia.webp",
-            "person_image": "speakers_logos/suhak.webp",
-            "type": "",
-            "position": "співзасновниця YaSvit",
-            "description": "Керівниця \"Дія.Освіта\". Лекція на тему: \"Що таке \"Дія Освіта\"?\"",
-            "personal_media": "",
-            "link": "https://osvita.diia.gov.ua/"
         }
     ]
 }
