@@ -160,11 +160,12 @@
 @include onMobile {
   .speakers-card {
     &:nth-child(even) {
-      width: 380px;
+      width: 356px;
       height: 650px;
 
       .speakers-card__info--logo {
         height: 60px;
+        width: 356px;
       }
     }
 
