@@ -27,7 +27,7 @@ export const Footer = () => {
             </li>
             <li>
               <a href="https://www.instagram.com/usl.org.ua/" target='blank'>
-                Українська студентьска ліга
+                Українська студентська ліга
               </a>
             </li>
           </ul>
@@ -40,6 +40,9 @@ export const Footer = () => {
             </li>
             <li>
               <Link to="partners" smooth={true} duration={500}>партнери</Link>
+            </li>
+            <li>
+              <Link to="speakers" smooth={true} duration={500}>спікери</Link>
             </li>
             <li>
               <Link to="about" smooth={true} duration={500}>про ПоDeal `24</Link>

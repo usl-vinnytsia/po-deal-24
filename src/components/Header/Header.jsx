@@ -43,6 +43,7 @@ const Header = () => {
             <li><Link to="team" smooth={true} duration={500}>про нас</Link></li>
             <li><Link to="partners" smooth={true} duration={500}>партнери</Link></li>
             <li><Link to="program" smooth={true} duration={500}>програма</Link></li>
+            <li><Link to="speakers" smooth={true} duration={500}>спікери</Link></li>
           </ul>
         </nav>
 
@@ -95,6 +96,16 @@ const Header = () => {
                   onClick={handleLinkClick}
                 >
                   програма
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="speakers"
+                  smooth={true}
+                  duration={500}
+                  onClick={handleLinkClick}
+                >
+                  спікери
                 </Link>
               </li>
             </ul>
