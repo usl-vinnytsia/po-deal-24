@@ -101,6 +101,7 @@
       flex-direction: column;
       align-items: start;
       gap: 5px;
+      text-transform: uppercase;
     }
 
     &--logo {
@@ -123,6 +124,7 @@
     margin-top: 15px;
     text-align: start;
     pointer-events: none;
+    // text-transform: uppercase;
   }
 
   &__link {
@@ -171,4 +173,10 @@
 
 #misha {
   flex-direction: column;
+  align-items: start;
+  gap: 10px;
+
+  & img {
+    width: 380px;
+  }
 }

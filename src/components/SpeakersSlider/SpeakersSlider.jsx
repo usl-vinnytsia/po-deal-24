@@ -2,15 +2,15 @@ import React, { useRef, useState } from 'react';
 import speakersData from '../../speakers-data.json';
 import "./SpeakersSlider.scss"
 
+import misha from '../../images/hanchuk.webp';
+import pa from '../../images/prom.webp';
+
 const CARD_WIDTH = 380;
 const CARD_GAP = 160;
 const SLIDE_CARDS = 2;
 
 
 export const SpeakersSlider = () => {
-  const misha = '/speakers_logos/hanchuk.webp';
-  const pa = '/partner_logos/prom.webp'; 
-
   const scrollContainerRef = useRef(null);
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
