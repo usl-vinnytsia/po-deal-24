@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import speakersData from '../../speakers-data.json';
 import "./SpeakersSlider.scss"
+import person_image from '../../speakers_logos/suhak.webp';
 
 const CARD_WIDTH = 380;
 const CARD_GAP = 160;
@@ -65,7 +66,7 @@ export const SpeakersSlider = () => {
           key={`${speaker.id}-${index}`}
           className="speakers-scrollbar__card speakers-card"
         >
-          <img className="speakers-card__image" alt='speaker' src={speaker.person_image} />
+          <img className="speakers-card__image" alt='speaker' src={person_image} />
           <div className="speakers-card__info">
             <div className="speakers-card__info--text">
               <p className="speakers-card__info--left">{speaker.title}</p>
