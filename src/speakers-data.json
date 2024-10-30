@@ -8,6 +8,7 @@
             "type": "",
             "position": "співзасновниця YaSvit",
             "description": "YaSvit -  це виробництво терапевтичних свічок і простір для реалізації душі. Поділиться, як змогла перетворити своє захоплення в прибуткову справу",
+            "personal_media": "https://www.instagram.com/yuliia.zaiats?igsh=NmVhOHk0NHJxNnVj",
             "link": "https://yasvit.com.ua/"
         },
         {
@@ -18,6 +19,7 @@
             "type": "",
             "position": "співзасновниця YaSvit",
             "description": "YaSvit -  це виробництво терапевтичних свічок і простір для реалізації душі. Поділиться, як змогла перетворити своє захоплення в прибуткову справу",
+            "personal_media": "https://www.instagram.com/ann_otsvera?igsh=MWU3MTV1ODNxb2Q5OA==",
             "link": "https://yasvit.com.ua/"
         },
         {
@@ -27,78 +29,86 @@
             "person_image": "speakers_logos/suhak.webp",
             "type": "",
             "position": "співзасновник ДУЕТ",
-            "description": "ДУЕТ – це простір, в основі якого є кавова школа, що не тільки знайомить людей з кавою та сферою ХоРеКа, а й покращує знання професіоналів. Сам простір створено задля розвитку та поширення інформації між людьми💭 Поділиться, як зміг перетворити своє захоплення в прибуткову справу",
+            "description": "ДУЕТ – це простір, в основі якого є кавова школа. Поділиться, як зміг перетворити своє захоплення в прибуткову справу",
+            "personal_media": "https://www.instagram.com/andromeda_svr?igsh=N3lwb2lxY21mdTA0",
             "link": "https://www.instagram.com/duet.community/"
         },
         {
             "id": 4,
             "title": "Вікторія Козумляк",
-            "image": "speakers_logos/lordofboards.webp",
-            "person_image": "speakers_logos/suhak.webp",
+            "image": "speakers_logo/lordofboards.webp",
+            "person_image": "speakers_logo/kozumliak",
             "type": "",
             "position": "співзасновниця магазину «Lord of Boards»",
-            "description": " «Lord of Boards» – це магазин настільних ігор, який з любов’ю створила дружня сім’я. Поділиться, як змогла перетворити своє захоплення в прибуткову справу",
+            "description": "«Lord of Boards» – це магазин настільних ігор, який з любов’ю створила дружня сім’я. Поділиться, як змогла перетворити своє захоплення в прибуткову справу",
+            "personal_media": "https://www.instagram.com/viktoriya_kozumliak?igsh=MWN0bnNqd3VlMTFycQ==",
             "link": "https://lordofboards.com.ua/o-nas/"
         },
         {
             "id": 5,
             "title": "Дмитро Негорілий",
-            "image": "speakers_logos/sdc.webp",
-            "person_image": "speakers_logos/suhak.webp",
+            "image": "speakers_logo/sdc.webp",
+            "person_image": "speakers_logo/negoriliy.webp",
             "type": "",
             "position": "співзасновник soul dance centre",
             "description": "soul dance centre – СТУДІЯ ТАНЦІВ, Поділиться, як зміг перетворити своє захоплення в прибуткову справу",
+            "personal_media": "https://www.instagram.com/dmytro.negorilyi?igsh=eXdweWl0bHViZWpy",
             "link": "https://souldancecentre.com/"
         },
         {
             "id": 6,
             "title": "Михайло Ганчук",
             "image": "partner_logos/prom.webp",
-            "person_image": "speakers_logos/suhak.webp",
+            "person_image": "speakers_logo/hanchuk.webp",
             "type": "",
             "position": "CЕО Промавтоматика",
-            "description": "Промавтоматика – компанія спеціалізується на розробках та подальшому виробництві електрообладнання, реалізовуємо продукцію власного виробництва. Панельна дискусія на тему: \"Навички трейні/джуна: що шукають роботодавці у студентах у 2024 році\"",
+            "description": "Промавтоматика – компанія спеціалізується на розробках та подальшому виробництві електрообладнання, реалізовуємо продукцію власного виробництва.",
+            "personal_media": "https://www.instagram.com/mykhailoganchuk?igsh=ZGFudzFja2poaTB1",
             "link": "https://www.pa.ua/"
         },
         {
             "id": 7,
             "title": "Борис Дрожак",
-            "image": "partner_logos/prom.webp",
-            "person_image": "speakers_logos/suhak.webp",
+            "image": "partner_logos/rover.webp",
+            "person_image": "speakers_logo/drozhak.webp",
             "type": "",
-            "position": "співзасновниця YaSvit",
-            "description": "блаблабла. Панельна дискусія на тему: \"Навички трейні/джуна: що шукають роботодавці у студентах у 2024 році\"",
-            "link": "https://www.pa.ua/"
+            "position": "Architect, Principal SWE, co-founder at Rovertech",
+            "description": "Компанія, яка робить правильні ровери.",
+            "personal_media": "https://www.instagram.com/the_borys_official?igsh=MW0wZTE4OTE2MHl0Mg==",
+            "link": "https://rovertech.co.ua/?fbclid=PAZXh0bgNhZW0CMTEAAaYx9AqaPm8QLWBannCt2rSFwtqeD-o1Vh-la7j7NLpNbwDaubinS4mi8Ug_aem_PPyDaTNzkh6_flg7vO5Crg"
         },
         {
             "id": 8,
             "title": "Сергій Фомін",
             "image": "partner_logos/hillel.webp",
-            "person_image": "speakers_logos/suhak.webp",
+            "person_image": "speakers_logo/fomin.webp",
             "type": "",
-            "position": "співзасновниця YaSvit",
-            "description": "СТО Hillel IT School – одна з найбільших IT-шкіл в Україні, і з кожним роком вони продовжують розвиватися і впроваджувати інновації у навчання. Панельна дискусія на тему: \"Навички трейні/джуна: що шукають роботодавці у студентах у 2024 році\"",
+            "position": "Head of IT Department",
+            "description": "Hillel IT School – одна з найбільших IT-шкіл в Україні, і з кожним роком вони продовжують розвиватися і впроваджувати інновації у навчання.",
+            "personal_media": "https://www.instagram.com/fominua?igsh=MTdiZXlzc242N21h",
             "link": "https://ithillel.ua/"
         },
         {
             "id": 9,
             "title": "Руслана Коренчук",
             "image": "partner_logos/diia.webp",
-            "person_image": "speakers_logos/suhak.webp",
+            "person_image": "speakers_logo/kor_diia.webp",
             "type": "",
-            "position": "Очільниця напрямку розвитку цифрових навичок та проєкту \"Дія.Освіта\" Міністества цифрової трансформації",
-            "description": "Дія.Освіта - це. Лекція на тему: \"Що таке \"Дія Освіта\"?\" та панельна дискусія на тему: \"Підтримка молоді: роль державних інституцій у сприянні працевлаштуванню студентів; Кар'єра у державі\"",
+            "position": "",
+            "description": "Очільниця напрямку розвитку цифрових навичок та проєкту \"Дія.Освіта\" Міністества цифрової трансформації",
+            "personal_media": "https://www.instagram.com/ruslana_korenchuk?igsh=azlreWltcDhhcGM5",
             "link": "https://osvita.diia.gov.ua/"
         },
         {
             "id": 10,
             "title": "Еліна Дядюшенко",
-            "image": "partner_logos/prom.webp",
-            "person_image": "speakers_logos/suhak.webp",
+            "image": "partner_logos/jooble.webp",
+            "person_image": "speakers_logo/elina.webp",
             "type": "",
             "position": "HR jooble",
-            "description": "jooble. Лекція на тему: \"Старт кар'єри. Як шукати роботу, щоб знайти?\"",
-            "link": "https://www.pa.ua/"
+            "description": "Jooble – це міжнародний сайт з пошуку роботи, яким щодня користуються мільйони людей у 67 країнах світу.",
+            "personal_media": "https://www.instagram.com/elinakuzmenko05?igsh=Njl6YjViNWtobTht",
+            "link": "https://ua.jooble.org/info/about"
         },
         {
             "id": 11,
@@ -107,78 +117,86 @@
             "person_image": "speakers_logos/suhak.webp",
             "type": "",
             "position": "Заступниця міського голови",
-            "description": "панельна дискусія на тему: \"Підтримка молоді: роль державних інституцій у сприянні працевлаштуванню студентів; Кар'єра у державі\"",
-            "link": "https://osvita.diia.gov.ua/"
+            "description": "",
+            "personal_media": "",
+            "link": ""
         },
         {
             "id": 12,
             "title": "Ольга Смалій",
-            "image": "partner_logos/diia.webp",
-            "person_image": "speakers_logos/suhak.webp",
+            "image": "partner_logos/nads.webp",
+            "person_image": "speakers_logo/smaliy.webp",
             "type": "",
-            "position": "співзасновниця YaSvit",
-            "description": "панельна дискусія на тему: \"Підтримка молоді: роль державних інституцій у сприянні працевлаштуванню студентів; Кар'єра у державі\"",
-            "link": "https://osvita.diia.gov.ua/"
+            "position": "",
+            "description": "начальниця Західного міжрегіонального управління НАДС",
+            "personal_media": "",
+            "link": "https://nads.gov.ua/"
         },
         {
             "id": 13,
-            "title": "Руслана Коренчук",
+            "title": "Альона Лабюк",
             "image": "partner_logos/diia.webp",
             "person_image": "speakers_logos/suhak.webp",
             "type": "",
             "position": "співзасновниця YaSvit",
             "description": "панельна дискусія на тему: \"Онлайн-курси як альтернатива традиційній освіті: переваги та виклики\"",
+            "personal_media": "https://www.instagram.com/helenlabuk?igsh=MTE4anozZ29nZmg3dg==",
             "link": "https://osvita.diia.gov.ua/"
         },
         {
             "id": 14,
-            "title": "Руслана Коренчук",
+            "title": "Вадим Друмов",
             "image": "partner_logos/diia.webp",
             "person_image": "speakers_logos/suhak.webp",
             "type": "",
             "position": "співзасновниця YaSvit",
             "description": "Керівниця \"Дія.Освіта\". Лекція на тему: \"Що таке \"Дія Освіта\"?\"",
+            "personal_media": "https://www.instagram.com/vadymdrumov?igsh=MWU2M2Y3dHpud2Jhdw==",
             "link": "https://osvita.diia.gov.ua/"
         },
         {
             "id": 15,
-            "title": "Руслана Коренчук",
+            "title": "Аліна Таратун",
             "image": "partner_logos/diia.webp",
-            "person_image": "speakers_logos/suhak.webp",
+            "person_image": "speakers_logo/taratun.webp",
             "type": "",
-            "position": "співзасновниця YaSvit",
-            "description": "Керівниця \"Дія.Освіта\". Лекція на тему: \"Що таке \"Дія Освіта\"?\"",
-            "link": "https://osvita.diia.gov.ua/"
+            "position": "Head of Skvot Production",
+            "description": "Skvot — це онлайн-школа популярної культури. Вони навчають тих, хто завтра формуватиме нові сенси в контексті світової сучасної культури — в креативі, маркетингу, геймдеві, мистецтві, архітектурі.",
+            "personal_media": "https://www.instagram.com/taratun?igsh=YmgyNmNlbzdxcXlu",
+            "link": "https://skvot.io/uk/"
         },
         {
             "id": 16,
-            "title": "Руслана Коренчук",
+            "title": "Анна Алєксєєнко",
             "image": "partner_logos/diia.webp",
             "person_image": "speakers_logos/suhak.webp",
             "type": "",
             "position": "співзасновниця YaSvit",
             "description": "Керівниця \"Дія.Освіта\". Лекція на тему: \"Що таке \"Дія Освіта\"?\"",
+            "personal_media": "",
             "link": "https://osvita.diia.gov.ua/"
         },
         {
             "id": 17,
-            "title": "Руслана Коренчук",
-            "image": "partner_logos/diia.webp",
-            "person_image": "speakers_logos/suhak.webp",
+            "title": "Марія Дрожак",
+            "image": "partner_logos/rover.webp",
+            "person_image": "speakers_logo/drozhak.webp",
             "type": "",
-            "position": "співзасновниця YaSvit",
-            "description": "Керівниця \"Дія.Освіта\". Лекція на тему: \"Що таке \"Дія Освіта\"?\"",
-            "link": "https://osvita.diia.gov.ua/"
+            "position": "Growth Marketing Lead в Rovertech LLC",
+            "description": "Rovertech LLC - компанія, яка робить правильні ровери.",
+            "personal_media": "https://www.instagram.com/mariia.drzh?igsh=ZDQxdHN4eW96dXZs",
+            "link": "https://rovertech.co.ua/?fbclid=PAZXh0bgNhZW0CMTEAAaYx9AqaPm8QLWBannCt2rSFwtqeD-o1Vh-la7j7NLpNbwDaubinS4mi8Ug_aem_PPyDaTNzkh6_flg7vO5Crg"
         },
         {
             "id": 18,
-            "title": "Руслана Коренчук",
-            "image": "partner_logos/diia.webp",
-            "person_image": "speakers_logos/suhak.webp",
+            "title": "Анастасія Онипчук",
+            "image": "",
+            "person_image": "speakers_logo/onupchuk.webp",
             "type": "",
-            "position": "співзасновниця YaSvit",
-            "description": "Керівниця \"Дія.Освіта\". Лекція на тему: \"Що таке \"Дія Освіта\"?\"",
-            "link": "https://osvita.diia.gov.ua/"
+            "position": "Психологиня",
+            "description": "",
+            "personal_media": "https://www.instagram.com/nastya.onypchuk?igsh=MTFrN3d3end0djAyNg==",
+            "link": ""
         },
         {
             "id": 19,
@@ -188,6 +206,7 @@
             "type": "",
             "position": "співзасновниця YaSvit",
             "description": "Керівниця \"Дія.Освіта\". Лекція на тему: \"Що таке \"Дія Освіта\"?\"",
+            "personal_media": "",
             "link": "https://osvita.diia.gov.ua/"
         },
         {
@@ -198,6 +217,7 @@
             "type": "",
             "position": "співзасновниця YaSvit",
             "description": "Керівниця \"Дія.Освіта\". Лекція на тему: \"Що таке \"Дія Освіта\"?\"",
+            "personal_media": "",
             "link": "https://osvita.diia.gov.ua/"
         },
         {
@@ -208,6 +228,7 @@
             "type": "",
             "position": "співзасновниця YaSvit",
             "description": "Керівниця \"Дія.Освіта\". Лекція на тему: \"Що таке \"Дія Освіта\"?\"",
+            "personal_media": "",
             "link": "https://osvita.diia.gov.ua/"
         }
     ]
