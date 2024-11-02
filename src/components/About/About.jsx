@@ -6,6 +6,24 @@ const About = () => {
   const [startCount, setStartCount] = useState(false);
   const [hoursLeft, setHoursLeft] = useState(0);
   const sectionRef = useRef(null);
+  const [totalUsers, setTotalUsers] = useState(356);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('http://ec2-34-239-125-198.compute-1.amazonaws.com:8000/api/v1/users-stats/');
+        if (!response.ok) {
+          throw new Error('Failed to fetch data');
+        }
+        const data = await response.json();
+        setTotalUsers(data.all);
+      } catch (err) {
+        console.log(err);
+      }
+    }
+
+      fetchData();
+  }, []);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -53,7 +71,7 @@ const About = () => {
             <CountUp
               className='about-content-left-details-num'
               start={0}
-              end={256}
+              end={totalUsers}
               duration={4}
             />
           )}
