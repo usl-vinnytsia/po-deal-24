@@ -6,7 +6,7 @@ const About = () => {
   const [startCount, setStartCount] = useState(false);
   const [hoursLeft, setHoursLeft] = useState(0);
   const sectionRef = useRef(null);
-  const [totalUsers, setTotalUsers] = useState(356);
+  const [totalUsers, setTotalUsers] = useState(453);
 
   useEffect(() => {
     const fetchData = async () => {
